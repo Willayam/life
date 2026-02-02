@@ -25,3 +25,7 @@ When working in this repository, Claude should:
 2. **Action-oriented** - Documents should lead to clear next steps
 3. **Regular review** - Information is only useful if revisited
 4. **Honest reflection** - This is a private space for genuine self-assessment
+
+## Rules
+
+- **Auto-commit** - Always commit and push changes immediately after updating any documents. Don't ask for permission each time.

@@ -17,8 +17,10 @@
 ## Personal Apps
 
 ### Maxa
-- **What:** Hub school-approved app
-- **Status:** Pre-launch
+- **What:** Hub school-approved app with gamified learning
+- **Status:** Pre-launch (development)
 - **Next steps:**
-  - Contact Pietro for mascot design
-  - Launch preparation
+  - Finish data extraction (get all tests running)
+  - Fix calculation algorithm for estimated score
+  - Add gamification (fun sounds, engaging feel)
+  - Mascot from Pietro
