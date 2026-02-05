@@ -3,14 +3,15 @@
 ## Consulting
 
 ### Inkarnate
-- **Status:** Active engagement
+- **Status:** Active engagement (blocked)
 - **Focus:** UX improvements for smoother user experience
-- **Current:** Preparing demo of suggested app changes
+- **Blocker:** Their dev team is in crisis mode fixing performance issues. UI improvements depend on that work landing first.
+- **Current:** Staying in touch, ready to demo once perf stabilizes
 
-### Clarity.video (Prospective)
-- **Status:** Proposal sent
+### Clarity.video
+- **Status:** They replied — want a deeper proposal
 - **Focus:** App improvements
-- **Next:** Await response
+- **Next:** Develop detailed proposal
 
 ---
 
