@@ -21,8 +21,8 @@ William Larsten. Product person turned AI-augmented builder. Based in Stockholm.
 
 | Who | Relationship | Notes |
 |-----|-------------|-------|
-| **Frida** | Partner, co-parent | PhD sleep researcher, entrepreneur. Baby due end of July 2025. Lives together. |
-| **Charlie** | Son, age 4 | Shared custody (50/50). Preschool is 45 min away. |
+| **Frida** | Partner, co-parent | PhD sleep researcher, entrepreneur. Baby due end of July 2026. Lives together. See [people/frida.md](people/frida.md) |
+| **Charlie** | Son, age 4 | Shared custody (50/50). Preschool is 45 min away. See [people/charlie.md](people/charlie.md) |
 | **Baby #2** | Coming | Due late July 2026 |
 | **Millie** | Close friend/family circle | |
 | **Karin** | Close friend/family circle | |

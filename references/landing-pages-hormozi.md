@@ -1,3 +1,10 @@
+---
+date: 2026-02-06
+tags: [framework, marketing, landing-pages]
+source: "Alex Hormozi"
+type: framework
+---
+
 # Landing Pages That Don't Suck
 
 Source: Alex Hormozi
