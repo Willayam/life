@@ -1,63 +1,152 @@
 # Active Projects
 
-## Consulting
+## Priority Order
 
-### Expa Travel (Vaylo/Framer Integration)
-- **Status:** Transitioning out / on-call paid support
-- **What:** Travel booking website built on Framer with Vaylo booking system integration
-- **Stakeholders:**
-  - Expa NO: Eric Berglund (eric@expa.no), Catrine Olsen (cat@expa.no)
-  - Expa SE: Bill Larsten (bill@exparesor.se)
-  - Vaylo/Strativ: Axel Berggren, Erik Karlsson (taking over)
+1. **Maxa** - The main bet. Ship it.
+2. **Inkarnate** - The lifeline. Protect it.
+3. **Clarity.video** - Upside. Follow up.
+4. **Expa** - Winding down. Minimal effort.
+5. **Frida's school offer** - Help her when time allows.
 
-**Latest Questions - NEEDS RESPONSE:**
-[📧 Feb 5](https://mail.google.com/mail/u/0/#inbox/19c2d9d45ae6e865) from Expa NO (info@expa.no)
+---
+
+## 1. Maxa (Högskoleprovet App)
+
+**Result:** A launched, growing app with paying subscribers. The Duolingo of högskoleprovet.
+
+**Purpose:** This is the primary vehicle to financial freedom. Recurring revenue that scales without my time.
+
+**Status:** Pre-launch. Core app close. Blocked on finishing question extraction.
+
+### What It Is
+- Gamified test prep for högskoleprovet (Swedish university entrance exam)
+- Fun, engaging, bite-sized practice (Duolingo-style)
+- Mobile-first experience
+
+### Business Model
+- **Who pays:** Students preparing for högskoleprovet
+- **Pricing (testing):**
+  - Monthly: ~50-100 SEK/month
+  - Yearly: TBD
+  - Lifetime: ~1,000 SEK
+- **Revenue math:**
+  - 100 subscribers x 100 SEK = 10,000 SEK/month
+  - 1,000 subscribers x 100 SEK = 100,000 SEK/month (replaces consulting!)
+  - 10,000 subscribers x 100 SEK = 1,000,000 SEK/month
+
+### Current Blockers
+- [ ] **Question extraction** - Need to get all tests/questions into the system
+- [ ] **Calculation algorithm** - Estimated score calculation needs to be correct
+
+### Remaining Before Launch
+- [ ] Finish question extraction (THE BLOCKER - days, not weeks)
+- [ ] Fix calculation algorithm for estimated score
+- [ ] Add gamification (fun sounds, engaging feel)
+- [ ] Mascot from Pietro (contacted, need follow-up)
+- [ ] Landing page (use [landing page framework](../landing-pages.md))
+- [ ] App Store / distribution setup
+- [ ] Payment/subscription integration
+
+### First 10 Customers Plan
+- [ ] Personal network - who is taking högskoleprovet?
+- [ ] Find online communities (Reddit, Facebook groups, Discord)
+- [ ] Schools / study groups
+- [ ] Content marketing (build in public)
+
+### Future Potential
+- Could expand to nationella prov (high school tests) → Frida connection to schools
+- International versions (SAT, etc.)
+
+---
+
+## 2. Inkarnate Consulting
+
+**Result:** Stable 90K/month income for as long as I need it.
+
+**Purpose:** This is the bridge. It pays the bills while I build Maxa. Do great work, but don't let it consume me.
+
+**Status:** Active engagement. Currently blocked on their end (dev team fixing performance). UX demo on hold.
+
+**Revenue:** 90,000 SEK/month (~$10K USD)
+
+**Key contact:** (Inkarnate team)
+
+### Ongoing
+- [ ] Weekly check-ins with Inkarnate team
+- [ ] Stay ready to demo UX improvements once perf stabilizes
+- [ ] Track hours - keep this efficient, don't let it creep
+
+### Boundary
+Time-box consulting work. It should not expand to fill all available time. Target: focused blocks, not all-day availability.
+
+---
+
+## 3. Clarity.video
+
+**Result:** New consulting engagement generating additional income.
+
+**Purpose:** Additional revenue while building. Also builds portfolio and network.
+
+**Status:** ~~Proposal sent~~ → Deeper proposal completed and sent. Waiting for reply.
+
+### Next Steps
+- [x] Write and send initial proposal
+- [x] Received reply - they want deeper proposal
+- [x] Write and send deeper proposal
+- [ ] **Follow up if no reply by [set a date]**
+- [ ] If accepted: scope the engagement, agree on terms
+
+---
+
+## 4. Expa Travel (Winding Down)
+
+**Result:** Clean exit. Minimal ongoing time investment. Maybe small income from dad's work.
+
+**Purpose:** Don't let a dead project drain energy. Close it cleanly.
+
+**Status:** Transitioning out. On-call paid support. Haven't been paid since October 2025.
+
+### Key Facts
+- Erik Karlsson (Strativ/Vaylo) taking over technical work
+- Catrine needs to know if all changes go to Erik now
+- You stopped receiving payment since October 2025
+
+### Remaining Items
+- [ ] Confirm handoff to Erik is complete
+- [ ] Resolve any outstanding questions from Catrine
+- [ ] Explore: AI automation / ads work for dad (Bill) at Expa SE - separate arrangement
+
+### Open Questions from Expa NO (Feb 5 email)
 1. Will mobile number be mandatory in next update?
 2. Will email double-checking be added?
 3. Will Expa logo be visible on the widget?
-
-**Open Tasks:**
-- [ ] Test new widget on Framer sites (NO and SE) — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e) Axel
-- [ ] Schedule meeting with Axel (Strativ) re: Expa SE Framer problems — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
-- [ ] Program compression feature (quoted 4-6h @ 450kr/h to Eric) — [📧 Feb 4](https://mail.google.com/mail/u/0/#inbox/19c27d302371891c) Eric
-  - Make tour program more compact with collapsible sections
-  - Less scrolling required
-
-**Known Issues:**
-- Booking from Norway failed to go through — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
-- Old tour dates persist in Framer after recreating tour in Vaylo — [📧 Jan 20](https://mail.google.com/mail/u/0/#inbox/19bdbea110b6fb84) Catrine
-- Header image sizes inconsistent across site — [📧 Jan 16](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024) Catrine
-- References section styling differs between NO/SE (NO wants consistent sizing) — [📧 Jan 16](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024)
-
-**Handoff:**
-- Erik Karlsson (Strativ/Vaylo) taking over technical work
-- Catrine needs to know: Does Erik have Coda access? Should all changes go to him? — [📧 Jan 25](https://mail.google.com/mail/u/0/#inbox/19bf6e661a30eee4)
-- You stopped receiving payment since October 2025
-
-**Timeline:** They expect to be online within 2-3 weeks
+→ These should go to Erik now if handoff is complete.
 
 ---
 
-### Inkarnate
-- **Status:** Active engagement (blocked)
-- **Focus:** UX improvements for smoother user experience
-- **Blocker:** Their dev team is in crisis mode fixing performance issues. UI improvements depend on that work landing first.
-- **Current:** Staying in touch, ready to demo once perf stabilizes
+## 5. Frida's School Offer
 
-### Clarity.video
-- **Status:** They replied — want a deeper proposal
-- **Focus:** App improvements
-- **Next:** Develop detailed proposal
+**Result:** Help Frida create a scalable product/offer she can sell to schools.
+
+**Purpose:** Support my partner. Reduce her financial stress. Potentially synergize with Maxa.
+
+**Status:** Idea stage.
+
+**Concept:** Frida is a PhD sleep researcher who wants to work with kids in schools on sleep and play. Needs a scalable offer (not 1-on-1 consulting).
+
+### Ideas
+- Online course/program for schools
+- App or digital tool
+- Workshop-in-a-box that can be licensed
+- [ ] Brainstorm session with Frida to define the offer
 
 ---
 
-## Personal Apps
+## Project Pipeline (Future Bets)
 
-### Maxa
-- **What:** Hub school-approved app with gamified learning
-- **Status:** Pre-launch (development)
-- **Next steps:**
-  - Finish data extraction (get all tests running)
-  - Fix calculation algorithm for estimated score
-  - Add gamification (fun sounds, engaging feel)
-  - Mascot from Pietro
+_Ideas to evaluate when bandwidth allows. Each should meet the small bets criteria._
+
+- [ ] Opportunities from Michael's network
+- [ ] AI automation services (testing with dad's Expa SE work)
+- [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
+- [ ] Content-driven products (once audience exists)

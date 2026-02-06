@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "b05bb0328721c642",
+    "type": "split",
+    "children": [
+      {
+        "id": "057b78e9268d30a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0b571f435553fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "landing-pages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "landing-pages"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "343642f9cbd5d8bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b836ad4d3feeac92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "849fd4ecb1773570",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0f42c0477c67f484",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7996b22bc54bae7f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0e6f59018d7f3b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "4408147711b40865",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2178f526a317e14e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "landing-pages.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for landing-pages"
+            }
+          },
+          {
+            "id": "a616536389b15c10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "landing-pages.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from landing-pages"
+            }
+          },
+          {
+            "id": "9d3e53e5ceeb4336",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b7f532e56c66ada2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6081961a6dfbe971",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "landing-pages.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of landing-pages"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f0b571f435553fd8",
+  "lastOpenFiles": [
+    "planning/family.md",
+    "strategy/content.md",
+    "health/dashboard.md",
+    "strategy/finances.md",
+    "knowledge",
+    "health",
+    "overview.md",
+    "landing-pages.md",
+    "food-log.md",
+    "CLAUDE.md",
+    "projects/active.md"
+  ]
+}

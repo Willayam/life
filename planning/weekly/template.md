@@ -1,15 +1,61 @@
 # Week [NUMBER], [YEAR] ([DATE RANGE])
 
+## RPM Check-In
+
+### Top 3 Results This Week
+_What are the 3 most important outcomes I want by end of week?_
+
+1. **Result:**
+   - **Purpose (why this matters):**
+   - **Massive action:**
+     - [ ] Action step
+     - [ ] Action step
+
+2. **Result:**
+   - **Purpose:**
+   - **Massive action:**
+     - [ ] Action step
+
+3. **Result:**
+   - **Purpose:**
+   - **Massive action:**
+     - [ ] Action step
+
+---
+
 ## Focus Areas
 
-_Group tasks by project or life area_
-
-### [Project/Area 1]
-- [ ] Task
+### Maxa
 - [ ] Task
 
-### [Project/Area 2]
+### Consulting (Inkarnate / Clarity / Expa)
 - [ ] Task
+
+### Financial
+- [ ] Salary paid this month? Amount?
+- [ ] Debt remaining:
+
+### Content / Brand
+- [ ] Task
+
+### Family / Personal
+- [ ] Task
+
+---
+
+## Time Design
+
+_How am I spending my time this week? Charlie weeks vs non-Charlie weeks look different._
+
+| Day | Charlie? | Plan |
+|-----|----------|------|
+| Mon | Y/N | |
+| Tue | Y/N | |
+| Wed | Y/N | |
+| Thu | Y/N | |
+| Fri | Y/N | |
+| Sat | Y/N | |
+| Sun | Y/N | |
 
 ---
 
@@ -21,6 +67,25 @@ _Space for daily notes, blockers, or things that come up during the week_
 
 ## End of Week Review
 
-- What got done?
-- What didn't get done and why?
-- What carries over to next week?
+### What Got Done
+-
+
+### What Didn't Get Done & Why
+-
+
+### Health Check
+- Weight:
+- Sleep quality (1-10):
+- Training sessions:
+- Energy (1-10):
+
+### Relationship Check
+- Frida connection (1-10):
+- Charlie presence (1-10):
+- Social time:
+
+### Key Insight or Learning
+_One thing I learned or realized this week:_
+
+### Carries Over to Next Week
+-
