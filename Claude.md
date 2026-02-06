@@ -36,6 +36,8 @@ Claude has access to the following tools when working in this repository:
 - Manage labels and drafts
 - Useful for: tracking project communications, following up on commitments, extracting action items from email threads
 
+**How to trigger:** The Gmail MCP is configured in `~/.claude/settings.json`. After authentication (`npx @gongrzhe/server-gmail-autoauth-mcp auth`), restart Claude Code for tools to be available. Ask Claude to "search emails for X" or "check my inbox" to use Gmail features.
+
 ### Linear MCP
 - Manage issues, projects, and documents
 - Track work across teams
