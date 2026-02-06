@@ -10,28 +10,28 @@
   - Expa SE: Bill Larsten (bill@exparesor.se)
   - Vaylo/Strativ: Axel Berggren, Erik Karlsson (taking over)
 
-**Latest Questions (Feb 5, 2026) - NEEDS RESPONSE:**
-[📧 Email](https://mail.google.com/mail/u/0/#inbox/19c2d9d45ae6e865)
+**Latest Questions - NEEDS RESPONSE:**
+[📧 Feb 5](https://mail.google.com/mail/u/0/#inbox/19c2d9d45ae6e865) from Expa NO (info@expa.no)
 1. Will mobile number be mandatory in next update?
 2. Will email double-checking be added?
 3. Will Expa logo be visible on the widget?
 
 **Open Tasks:**
-- [ ] Test new widget on Framer sites (NO and SE) — [📧 Axel's email](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
-- [ ] Schedule meeting with Axel (Strativ) re: Expa SE Framer problems — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
-- [ ] Program compression feature (quoted 4-6h @ 450kr/h to Eric) — [📧 Eric's email](https://mail.google.com/mail/u/0/#inbox/19c27d302371891c)
+- [ ] Test new widget on Framer sites (NO and SE) — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e) Axel
+- [ ] Schedule meeting with Axel (Strativ) re: Expa SE Framer problems — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
+- [ ] Program compression feature (quoted 4-6h @ 450kr/h to Eric) — [📧 Feb 4](https://mail.google.com/mail/u/0/#inbox/19c27d302371891c) Eric
   - Make tour program more compact with collapsible sections
   - Less scrolling required
 
 **Known Issues:**
-- Booking from Norway failed to go through (Feb 3) — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
-- Old tour dates persist in Framer after recreating tour in Vaylo — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19bdbea110b6fb84)
-- Header image sizes inconsistent across site — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024)
-- References section styling differs between NO/SE (NO wants consistent sizing) — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024)
+- Booking from Norway failed to go through — [📧 Feb 3](https://mail.google.com/mail/u/0/#inbox/19c23eaa0e7a8a3e)
+- Old tour dates persist in Framer after recreating tour in Vaylo — [📧 Jan 20](https://mail.google.com/mail/u/0/#inbox/19bdbea110b6fb84) Catrine
+- Header image sizes inconsistent across site — [📧 Jan 16](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024) Catrine
+- References section styling differs between NO/SE (NO wants consistent sizing) — [📧 Jan 16](https://mail.google.com/mail/u/0/#inbox/19bc74989d02c024)
 
 **Handoff:**
 - Erik Karlsson (Strativ/Vaylo) taking over technical work
-- Catrine needs to know: Does Erik have Coda access? Should all changes go to him? — [📧 Email](https://mail.google.com/mail/u/0/#inbox/19bf6e661a30eee4)
+- Catrine needs to know: Does Erik have Coda access? Should all changes go to him? — [📧 Jan 25](https://mail.google.com/mail/u/0/#inbox/19bf6e661a30eee4)
 - You stopped receiving payment since October 2025
 
 **Timeline:** They expect to be online within 2-3 weeks
