@@ -27,6 +27,28 @@ Everything depends on energy. If I'm tired, sluggish, or sick, nothing else work
 - **Partner:** Friend in worse shape - this is about finishing, not competing
 - **Plan:** Just enjoy it. Don't get injured. Use it as motivation to keep training after.
 
+### Race Day Fuel: Homemade Protein Bars (~94 cents/bar)
+
+[Source](https://www.youtube.com/shorts/RSL-9dnOUyM)
+
+**Base layer:**
+- Oatmeal
+- Protein powder
+- Peanut butter powder
+- Cocoa powder
+- Greek yogurt
+- Almond milk
+
+Mix dry ingredients, add yogurt and almond milk until you get a dough. Press into a tin.
+
+**Topping:**
+- Dark chocolate (melted)
+- Coconut oil
+
+Melt chocolate with coconut oil, pour over base layer. Fridge until set, slice into 5 bars.
+
+- [ ] Make a batch of these before Vasaloppet
+
 ---
 
 ## Nutrition
