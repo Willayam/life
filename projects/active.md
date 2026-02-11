@@ -83,18 +83,30 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 ## 3. Clarity.video
 
-**Result:** New consulting engagement generating additional income.
+**Result:** A profitable 50/50 partnership where I own half the upside, drive costs down, and improve the product.
 
-**Purpose:** Additional revenue while building. Also builds portfolio and network.
+**Purpose:** Not just consulting hours - an ownership play with aligned incentives. Improving the product and reducing costs directly benefits me. Consulting-to-ownership transition.
 
-**Status:** ~~Proposal sent~~ → Deeper proposal completed and sent. Waiting for reply.
+**Status:** Negotiating deal structure. Mikey replied Feb 11 - wants security first, asked about dev costs and rev share.
+
+**Key contact:** Mikey (sales/business side)
+
+**Detailed docs:** [projects/clarity.md](clarity.md)
+
+### Deal Structure (Proposed)
+- 50/50 profit split (or minimum floor, whichever is higher)
+- Dev costs come out of Clarity profits (fully aligned)
 
 ### Next Steps
 - [x] Write and send initial proposal
 - [x] Received reply - they want deeper proposal
 - [x] Write and send deeper proposal
-- [ ] **Follow up if no reply by [set a date]**
-- [ ] If accepted: scope the engagement, agree on terms
+- [x] Received reply from Mikey (Feb 11) - positive on priorities, questions about costs/rev share
+- [ ] **Reply to Mikey with profit split proposal**
+- [ ] Schedule call to align on deal specifics
+- [ ] Get full access to stack and services
+- [ ] Security audit (Mikey's #1 priority)
+- [ ] Document all services and costs (see [clarity.md](clarity.md))
 
 ---
 
