@@ -36,6 +36,7 @@ A personal brand is the ultimate leverage multiplier. It makes everything else e
 ## Massive Action Plan
 
 ### Phase 0: Foundation (Feb-Mar 2026)
+- [ ] Watch personal brand foundation video and extract framework: https://www.youtube.com/watch?v=uJ8Pg6t_iho
 - [ ] Research and enroll in branding course (find the one you were thinking of)
 - [ ] Choose primary platform (TikTok? YouTube? Instagram? Twitter/X?)
 - [ ] Set up accounts / optimize existing profiles
@@ -68,6 +69,15 @@ _Add ideas here whenever they come. Don't filter - just capture._
 5. "The $X00,000 I spent on personal development - was it worth it?"
 6. "Building apps that pay you while you sleep" (the small bets philosophy)
 7. Day-in-the-life: Stockholm apartment, kid, coding, the lifestyle
+
+---
+
+## Foundation Reference
+
+**Base framework for building the personal brand:**
+- [ ] Watch and extract key insights from: https://www.youtube.com/watch?v=uJ8Pg6t_iho
+- [ ] Document the framework/steps from the video
+- [ ] Map the video's advice to your specific situation and content themes
 
 ---
 
