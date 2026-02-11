@@ -1,8 +1,11 @@
 ---
 date: 2026-02-11
-tags: [inkarnate, landing-page, ux, ui, suggestions]
+project: inkarnate
+tags: [projects, inkarnate, landing-page, ux, ui, suggestions]
 type: planning
 ---
+
+> Part of [[inkarnate]] project
 
 # Inkarnate Landing Page — UI/UX Suggestions for Ingmar
 

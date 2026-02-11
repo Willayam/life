@@ -1,152 +1,51 @@
-# Active Projects
+# Projects Overview
 
-## Priority Order
+Quick-glance dashboard. Details live in each project file.
 
-1. **Maxa** - The main bet. Ship it.
-2. **Inkarnate** - The lifeline. Protect it.
-3. **Clarity.video** - Upside. Follow up.
-4. **Expa** - Winding down. Minimal effort.
-5. **Frida's school offer** - Help her when time allows.
+## Active
 
----
+| # | Project | Type | Status | Link |
+|---|---------|------|--------|------|
+| 1 | **Maxa** | product | Pre-launch, blocked on question extraction | [[maxa]] |
+| 2 | **Inkarnate** | consulting | Active, UX demo on hold (perf) | [[inkarnate]] |
+| 3 | **Clarity.video** | consulting | Proposal sent, waiting reply | [[clarity-video]] |
 
-## 1. Maxa (Högskoleprovet App)
+## Winding Down
 
-**Result:** A launched, growing app with paying subscribers. The Duolingo of högskoleprovet.
+| Project | Status | Link |
+|---------|--------|------|
+| **Expa** | Transitioning out, handoff to Erik | [[expa]] |
 
-**Purpose:** This is the primary vehicle to financial freedom. Recurring revenue that scales without my time.
+## Ideas
 
-**Status:** Pre-launch. Core app close. Blocked on finishing question extraction.
+| Project | Status | Link |
+|---------|--------|------|
+| **Frida's School Offer** | Idea stage | [[frida-school-offer]] |
 
-### What It Is
-- Gamified test prep for högskoleprovet (Swedish university entrance exam)
-- Fun, engaging, bite-sized practice (Duolingo-style)
-- Mobile-first experience
+## Pipeline (Future Bets)
 
-### Business Model
-- **Who pays:** Students preparing for högskoleprovet
-- **Pricing (testing):**
-  - Monthly: ~50-100 SEK/month
-  - Yearly: TBD
-  - Lifetime: ~1,000 SEK
-- **Revenue math:**
-  - 100 subscribers x 100 SEK = 10,000 SEK/month
-  - 1,000 subscribers x 100 SEK = 100,000 SEK/month (replaces consulting!)
-  - 10,000 subscribers x 100 SEK = 1,000,000 SEK/month
+_Evaluate when bandwidth allows. Each should meet the [small bets criteria](../strategy/2026-bets.md)._
 
-### Current Blockers
-- [ ] **Question extraction** - Need to get all tests/questions into the system
-- [ ] **Calculation algorithm** - Estimated score calculation needs to be correct
-
-### Remaining Before Launch
-- [ ] Finish question extraction (THE BLOCKER - days, not weeks)
-- [ ] Fix calculation algorithm for estimated score
-- [ ] Add gamification (fun sounds, engaging feel)
-- [ ] Mascot from Pietro (contacted, need follow-up)
-- [ ] Landing page (use [landing page framework](../landing-pages.md))
-- [ ] App Store / distribution setup
-- [ ] Payment/subscription integration
-
-### First 10 Customers Plan
-- [ ] Personal network - who is taking högskoleprovet?
-- [ ] Find online communities (Reddit, Facebook groups, Discord)
-- [ ] Schools / study groups
-- [ ] Content marketing (build in public)
-
-### Future Potential
-- Could expand to nationella prov (high school tests) → Frida connection to schools
-- International versions (SAT, etc.)
-
----
-
-## 2. Inkarnate Consulting
-
-**Result:** Stable 90K/month income for as long as I need it.
-
-**Purpose:** This is the bridge. It pays the bills while I build Maxa. Do great work, but don't let it consume me.
-
-**Status:** Active engagement. Currently blocked on their end (dev team fixing performance). UX demo on hold.
-
-**Revenue:** 90,000 SEK/month (~$10K USD)
-
-**Key contact:** (Inkarnate team)
-
-### Ongoing
-- [ ] Weekly check-ins with Inkarnate team
-- [ ] Stay ready to demo UX improvements once perf stabilizes
-- [ ] Track hours - keep this efficient, don't let it creep
-
-### Boundary
-Time-box consulting work. It should not expand to fill all available time. Target: focused blocks, not all-day availability.
-
----
-
-## 3. Clarity.video
-
-**Result:** New consulting engagement generating additional income.
-
-**Purpose:** Additional revenue while building. Also builds portfolio and network.
-
-**Status:** ~~Proposal sent~~ → Deeper proposal completed and sent. Waiting for reply.
-
-### Next Steps
-- [x] Write and send initial proposal
-- [x] Received reply - they want deeper proposal
-- [x] Write and send deeper proposal
-- [ ] **Follow up if no reply by [set a date]**
-- [ ] If accepted: scope the engagement, agree on terms
-
----
-
-## 4. Expa Travel (Winding Down)
-
-**Result:** Clean exit. Minimal ongoing time investment. Maybe small income from dad's work.
-
-**Purpose:** Don't let a dead project drain energy. Close it cleanly.
-
-**Status:** Transitioning out. On-call paid support. Haven't been paid since October 2025.
-
-### Key Facts
-- Erik Karlsson (Strativ/Vaylo) taking over technical work
-- Catrine needs to know if all changes go to Erik now
-- You stopped receiving payment since October 2025
-
-### Remaining Items
-- [ ] Confirm handoff to Erik is complete
-- [ ] Resolve any outstanding questions from Catrine
-- [ ] Explore: AI automation / ads work for dad (Bill) at Expa SE - separate arrangement
-
-### Open Questions from Expa NO (Feb 5 email)
-1. Will mobile number be mandatory in next update?
-2. Will email double-checking be added?
-3. Will Expa logo be visible on the widget?
-→ These should go to Erik now if handoff is complete.
-
----
-
-## 5. Frida's School Offer
-
-**Result:** Help Frida create a scalable product/offer she can sell to schools.
-
-**Purpose:** Support my partner. Reduce her financial stress. Potentially synergize with Maxa.
-
-**Status:** Idea stage.
-
-**Concept:** Frida is a PhD sleep researcher who wants to work with kids in schools on sleep and play. Needs a scalable offer (not 1-on-1 consulting).
-
-### Ideas
-- Online course/program for schools
-- App or digital tool
-- Workshop-in-a-box that can be licensed
-- [ ] Brainstorm session with Frida to define the offer
-
----
-
-## Project Pipeline (Future Bets)
-
-_Ideas to evaluate when bandwidth allows. Each should meet the small bets criteria._
-
-- [ ] Opportunities from Michael's network
+- [ ] Opportunities from [[michael]]'s network
 - [ ] AI automation services (testing with dad's Expa SE work)
 - [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
 - [ ] Content-driven products (once audience exists)
+
+---
+
+## Tagging Convention
+
+All project files use frontmatter:
+
+```yaml
+---
+status: active | winding-down | idea | paused
+priority: 1-5
+type: product | consulting | side-project
+tags: [projects, ...]
+---
+```
+
+Related content (brainstorms, suggestions, research) tags with `project: <name>` in frontmatter and links back with `[[project-name]]`.
+
+To find everything for a project: search tag or use Obsidian's backlinks panel on the project file.

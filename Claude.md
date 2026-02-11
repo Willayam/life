@@ -37,7 +37,13 @@ life/
     content.md          # Personal brand and content strategy
 
   projects/
-    active.md           # All active projects with status and next actions
+    active.md           # Dashboard - priority list with links to project files
+    maxa.md             # Product: Högskoleprovet app (priority 1)
+    inkarnate.md        # Consulting: UX/product work (priority 2)
+    clarity-video.md    # Consulting: Video platform (priority 3)
+    expa.md             # Winding down: Travel platform
+    frida-school-offer.md # Idea: Frida's school sleep/play offer
+    *-suggestions.md    # Related content links back via project: tag + [[wiki-link]]
 
   planning/
     family.md           # Family relationships and action items
