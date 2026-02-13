@@ -44,8 +44,13 @@
 - [ ] Add gamification (fun sounds, engaging feel)
 - [ ] Mascot from Pietro (contacted, need follow-up)
 - [ ] Landing page (use [landing page framework](../landing-pages.md))
-- [ ] App Store / distribution setup
+- [ ] **Play Store submission** - Get it to Olivia for testing ASAP
+- [ ] App Store submission
 - [ ] Payment/subscription integration
+
+### Design & Quality
+- [ ] Create custom Claude skill for design QA (current QA is terrible)
+- [ ] Implement claymorphism on site and app
 
 ### First 10 Customers Plan
 - [ ] Personal network - who is taking högskoleprovet?
@@ -87,14 +92,27 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 **Purpose:** Additional revenue while building. Also builds portfolio and network.
 
-**Status:** ~~Proposal sent~~ → Deeper proposal completed and sent. Waiting for reply.
+**Status:** Drafting new risk-based proposal. Previous deeper proposal sent, now pivoting approach.
+
+### Pricing Strategy (Feb 2026)
+- **Approach:** Take the risk — revenue is low, so offer a profit-share model
+- **Terms:** 50% profit share with a floor of $1,000/month
+- **Scope:** More work than last summer. Max out design — glassmorphism, super clean UX
+- **Positioning:** Upskill on design while delivering real value
 
 ### Next Steps
 - [x] Write and send initial proposal
 - [x] Received reply - they want deeper proposal
 - [x] Write and send deeper proposal
-- [ ] **Follow up if no reply by [set a date]**
+- [ ] **Review what was done last summer** (scope, deliverables, pricing) for reference
+- [ ] **Draft new risk-based proposal** — 50% profit, $1,000 floor, design-forward
+- [ ] Send new proposal
 - [ ] If accepted: scope the engagement, agree on terms
+
+### Stripe Reporting
+- [ ] Set up multi-reports: Stripe payments vs costs of running the service
+  - Marcus costs = pulled from William personally
+  - App running/dev costs (Claude, infra, etc.) = paid from company/app
 
 ---
 
@@ -139,6 +157,18 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 - App or digital tool
 - Workshop-in-a-box that can be licensed
 - [ ] Brainstorm session with Frida to define the offer
+
+---
+
+---
+
+## 6. Building Projects (Queue)
+
+_These are valuable but should not jump ahead of revenue-critical work._
+
+- [ ] **Email classifier** - Build a classifier to zero out inbox
+- [ ] **Framer/Vaylo replication** - Try replicating the Framer and Vaylo solution fully in code with agents
+- [ ] **Expo meeting** - Book meeting for Thursday Feb 19 or Friday Feb 20
 
 ---
 

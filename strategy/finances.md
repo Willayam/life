@@ -17,6 +17,9 @@ Financial freedom = time freedom. I never want to take a project because I *have
 | Monthly surplus | ~60,000 SEK |
 | Personal debt | -200,000 SEK |
 | Company owes me (private loans) | +300,000 SEK |
+| Company account balance | ~100,000 SEK |
+| Already booked expenses (pending) | ~13,000-15,000 SEK |
+| Deferred expense (from 2024) | ~55,000 SEK |
 | Savings | ~0 |
 
 ### Income Sources
@@ -35,6 +38,20 @@ Financial freedom = time freedom. I never want to take a project because I *have
 - [ ] Begin paying back the 300K company loan to personal savings (tax-efficient)
 - [ ] Keep Inkarnate engagement solid - this is the lifeline
 - [ ] Launch Maxa and get first paying users
+
+### Bookkeeping Plan (Feb 2026)
+- [ ] **Find all office papers** for bookkeeping review
+- [ ] **Complete bookkeeping** for rest of year — all expenses except the 55K
+- [ ] **Defer 55K expense** (from 2024) — don't book until after salary payout so account isn't emptied
+- [ ] **Cash flow calculation:**
+  - ~100K in account
+  - minus ~13-15K already booked expenses
+  - minus salary payout (amount TBD)
+  - = remaining surplus → move to savings → invest in Tesla stock
+- [ ] **Stripe cost separation:**
+  - Marcus costs → pulled from William personally
+  - App running/dev costs (Claude, infra) → paid from company/app
+- [ ] **Get office organized** and find all papers
 
 ### Phase 2: Build (May-Jul 2026)
 - [ ] Maxa growing toward 100+ paying subscribers
