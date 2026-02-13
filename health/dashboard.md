@@ -76,11 +76,15 @@ See [food-log.md](../food-log.md) for daily tracking.
 **Note:** Frida is a PhD sleep researcher. Leverage her expertise!
 
 ### Sleep Improvement Action Items
-- [ ] Establish consistent wake time (7:30 is good - make it non-negotiable)
+- [ ] Establish consistent wake time: **7:00** (6:30 on Charlie days) — non-negotiable
+- [ ] Phone charges outside bedroom — eliminates morning scroll and late-night doom
+- [ ] Screens off by **22:30** — evening routine starts at 22:15 (see [[routines]])
+- [ ] Caffeine cutoff: **14:00** — no coffee, tea, or energy drinks after this
+- [ ] Bedroom temp: 18-19°C — cooler = better deep sleep
 - [ ] Track sleep data (which app/device?)
 - [ ] Identify patterns: What makes a good night vs bad night?
-- [ ] Evening routine: screens off time, wind-down ritual
-- [ ] Ask Frida for her top 3 evidence-based sleep tips
+- [ ] Ask Frida for her top 3 evidence-based sleep tips (she's literally a PhD sleep researcher — use this advantage)
+- [ ] Target: lights out **23:00**, wake **7:00** = 8h opportunity, ~7-7.5h actual sleep
 
 ---
 
@@ -94,6 +98,8 @@ See [food-log.md](../food-log.md) for daily tracking.
 - [ ] Define 3-4x/week training plan
 - [ ] Mix of: strength training, cardio (biking to preschool?), skiing/outdoor
 - [ ] The e-bike preschool commute could be built-in daily exercise
+- [ ] Morning routine includes 20 pushups/stretch — not a workout, but daily movement baseline
+- [ ] See [[routines]] for how training blocks fit into the daily schedule
 
 ### The E-Bike Opportunity
 - Preschool run: 45 min each way currently

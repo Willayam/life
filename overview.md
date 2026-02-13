@@ -81,11 +81,13 @@ Each category has: **Result** (what I want), **Purpose** (why it matters), and l
 
 ## Planning Horizons
 
-- **Daily** - RPM: What are my top 3 results for today?
+- **Daily** - RPM: What is my #1 result for today? Morning launch + shutdown ritual. ([routines](planning/routines.md))
 - **Weekly** - Review: What moved? What's stuck? What needs to change? ([template](planning/weekly/template.md))
 - **Monthly** - Progress check against financial targets and project milestones
 - **Quarterly** - Reassess life categories and strategic direction
 - **Yearly** - Big picture vision refresh
+
+**Daily Operating System:** See [routines](planning/routines.md) for morning/evening routines, deep work blocks, Charlie-day vs deep-work-day rhythms, shutdown ritual, and friction elimination systems.
 
 ---
 

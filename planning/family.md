@@ -45,6 +45,32 @@ Shared custody 50/50 with his mother. Preschool is 45 min away.
 
 **Custody calendar:** Shared via Google Calendar with ex.
 
+### Charlie Day Rhythm
+
+Charlie days are not "work days with a kid." They're dad days with 2 work blocks. Accepting this removes guilt and sets realistic expectations.
+
+**Charlie Day Schedule:**
+- 6:30 — Wake (30 min earlier than non-Charlie days)
+- 6:30-7:15 — Morning routine (compressed) + Charlie breakfast
+- 7:15-7:45 — Preschool departure + commute (~20 min with e-bike, ~45 min now)
+- Drop-off → 10:45 — **Deep work block 1** (#1 result only)
+- 10:45-11:00 — Break
+- 11:00-12:30 — **Deep work block 2** (consulting / most urgent)
+- 12:30-13:00 — Lunch
+- 13:00-13:30 — Admin/email batch
+- 13:30 — **Shutdown ritual** (pick tomorrow's #1, close everything)
+- 14:00+ — Charlie pickup → full presence. No work. Phone in bag during pickup.
+
+**Charlie Evening:**
+- Dinner together, play, bath, bedtime routine
+- After Charlie is in bed → 2-min transition ritual → Frida time
+- See [[routines]] for transition rituals
+
+**Non-Charlie Week:**
+- Full deep work schedule (4 blocks/day, shutdown at 16:00)
+- Evenings free for Frida, friends, social, personal projects
+- This is when to schedule friend dinners, date nights, social events
+
 ---
 
 ## Baby #2 (Due Late July 2026)
