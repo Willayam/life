@@ -92,22 +92,28 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 **Purpose:** Additional revenue while building. Also builds portfolio and network.
 
-**Status:** Drafting new risk-based proposal. Previous deeper proposal sent, now pivoting approach.
+**Status:** Risk-based proposal sent 2026-02-13. Waiting for reply. Follow up W08 if no response.
 
-### Pricing Strategy (Feb 2026)
-- **Approach:** Take the risk — revenue is low, so offer a profit-share model
-- **Terms:** 50% profit share with a floor of $1,000/month
-- **Scope:** More work than last summer. Max out design — glassmorphism, super clean UX
-- **Positioning:** Upskill on design while delivering real value
+### Deal Structure (Proposed Feb 2026)
+- **Model:** 50/50 net profit split. I cover all dev costs.
+- **Floor:** $1,000/month (invoiced immediately to start)
+- **Monthly process:** I send P&L report + invoice the difference
+- **Net profit =** Stripe revenue - direct platform costs (hosting, APIs, Stripe fees, dev resources)
+- **Dev costs (Marcus, etc.) come out of revenue before split** — incentive to be lean
+- **Equity:** Separate conversation with Todd directly, once deal is in place or after proving results
+- **Last summer comparison:** They paid $10K/month for a 2-month sprint. Now getting full product team for $1K/month floor.
 
 ### Next Steps
 - [x] Write and send initial proposal
 - [x] Received reply - they want deeper proposal
 - [x] Write and send deeper proposal
-- [ ] **Review what was done last summer** (scope, deliverables, pricing) for reference
-- [ ] **Draft new risk-based proposal** — 50% profit, $1,000 floor, design-forward
-- [ ] Send new proposal
-- [ ] If accepted: scope the engagement, agree on terms
+- [x] Reviewed last summer's deal ($10K/mo, 2 months, Journey Page flow)
+- [x] Mikey asked follow-up Qs (who pays devs, what rev share)
+- [x] Sent risk-based proposal: 50/50 profit, $1K floor, I cover dev costs
+- [ ] **Follow up if no reply by 2026-02-20**
+- [ ] Schedule call to finalize terms
+- [ ] If accepted: scope the engagement, agree on terms, send first invoice
+- [ ] Have equity conversation with Todd
 
 ### Stripe Reporting
 - [ ] Set up multi-reports: Stripe payments vs costs of running the service
