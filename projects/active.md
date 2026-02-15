@@ -186,3 +186,4 @@ _Ideas to evaluate when bandwidth allows. Each should meet the small bets criter
 - [ ] AI automation services (testing with dad's Expa SE work)
 - [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
 - [ ] Content-driven products (once audience exists)
+- [ ] **Flowview** - Beautiful way to see your whole app in one place: screens and data flow visualized together. Connected with Maestro or Playwright for real device/browser flows.
