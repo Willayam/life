@@ -44,12 +44,12 @@
 - [ ] Add gamification (fun sounds, engaging feel)
 - [ ] Mascot from Pietro (contacted, need follow-up)
 - [ ] Landing page (use [landing page framework](../landing-pages.md))
-- [ ] **Play Store submission** - Get it to Olivia for testing ASAP
+- [ ] **App Store submission** - Get it to Olivia for testing ASAP
 - [ ] App Store submission
 - [ ] Payment/subscription integration
 
 ### Design & Quality
-- [ ] Create custom Claude skill for design QA (current QA is terrible)
+- [ ] **AppMap** - Automated flow visualization tool → [spec](appmap-spec.md) (replaces manual design QA)
 - [ ] Implement claymorphism on site and app
 
 ### First 10 Customers Plan
@@ -70,15 +70,21 @@
 
 **Purpose:** This is the bridge. It pays the bills while I build Maxa. Do great work, but don't let it consume me.
 
-**Status:** Active engagement. Currently blocked on their end (dev team fixing performance). UX demo on hold.
+**Status:** Active engagement. Actively working on multiple workstreams.
 
 **Revenue:** 90,000 SEK/month (~$10K USD)
 
 **Key contact:** (Inkarnate team)
 
+### Current Workstreams (Feb 2026)
+1. **Editor changes** - Core editor improvements
+2. **Performance strategy** - Come up with a good strategy to help them make a real impact on performance
+3. **Website landing page** - Ideas for improving the marketing site
+4. **Map creation flow** - Top-down overhaul: intuitive nav, updated look and feel, clean and awesome UX experience. Start from the top and work to the details.
+
 ### Ongoing
 - [ ] Weekly check-ins with Inkarnate team
-- [ ] Stay ready to demo UX improvements once perf stabilizes
+- [ ] Work on editor changes, performance strategy, landing page, and map creation flow
 - [ ] Track hours - keep this efficient, don't let it creep
 
 ### Boundary
@@ -92,7 +98,7 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 **Purpose:** Additional revenue while building. Also builds portfolio and network.
 
-**Status:** Risk-based proposal sent 2026-02-13. Waiting for reply. Follow up W08 if no response.
+**Status:** Risk-based proposal sent 2026-02-13. Mikey replied — looping in team, discussing internally. William replied: return to me with any questions. Follow up Tue Feb 18 if no further reply.
 
 ### Deal Structure (Proposed Feb 2026)
 - **Model:** 50/50 net profit split. I cover all dev costs.
@@ -110,7 +116,9 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 - [x] Reviewed last summer's deal ($10K/mo, 2 months, Journey Page flow)
 - [x] Mikey asked follow-up Qs (who pays devs, what rev share)
 - [x] Sent risk-based proposal: 50/50 profit, $1K floor, I cover dev costs
-- [ ] **Follow up if no reply by 2026-02-20**
+- [x] Mikey replied — looping in rest of team, discussing internally
+- [x] William replied: return to me with any questions
+- [ ] **Follow up if no further reply by Tue 2026-02-18**
 - [ ] Schedule call to finalize terms
 - [ ] If accepted: scope the engagement, agree on terms, send first invoice
 - [ ] Have equity conversation with Todd
@@ -174,7 +182,7 @@ _These are valuable but should not jump ahead of revenue-critical work._
 
 - [ ] **Email classifier** - Build a classifier to zero out inbox
 - [ ] **Framer/Vaylo replication** - Try replicating the Framer and Vaylo solution fully in code with agents
-- [ ] **Expo meeting** - Book meeting for Thursday Feb 19 or Friday Feb 20
+- [x] **Expa meeting** - Confirmed Thu Feb 19 at 11:00
 
 ---
 
