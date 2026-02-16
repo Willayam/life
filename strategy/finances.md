@@ -16,6 +16,7 @@ Financial freedom = time freedom. I never want to take a project because I *have
 | Monthly expenses | ~25,000-30,000 SEK |
 | Monthly surplus | ~60,000 SEK |
 | Personal debt | -200,000 SEK |
+| Personal loan from dad | -15,000 SEK (repay end Feb 2026) |
 | Company owes me (private loans) | +300,000 SEK |
 | Company account balance | ~100,000 SEK |
 | Monthly salary (from company) | 52,000 SEK |
@@ -42,8 +43,9 @@ Financial freedom = time freedom. I never want to take a project because I *have
 
 ### Bookkeeping Plan (Feb 2026)
 - [x] **Complete bookkeeping** for 2025 — all expenses booked except Tony Robbins + Acquisition.com
-- [ ] **TODO (~2026-03-10, after Inkarnate payment):** Book remaining expenses: Tony Robbins + Acquisition.com
-- [ ] **Defer 55K expense** (from 2024) — don't book until after salary payout so account isn't emptied
+- [ ] **TODO (~2026-03-10, after Inkarnate payment):** Book remaining expenses: Tony Robbins
+- **Note:** The Acquisition.com expense (55K) IS the deferred 2025 expense — same item, not separate
+- [ ] **Defer 55K expense** (from 2025, Acquisition.com) — don't book until after salary payout so account isn't emptied
 - [ ] **Cash flow calculation:**
   - ~100K in account
   - minus ~13-15K already booked expenses
@@ -81,8 +83,8 @@ Financial freedom = time freedom. I never want to take a project because I *have
 - You need to establish a consistent salary NOW
 
 ### Action Items
-- [x] **Determine optimal monthly salary level** → **52,000 SEK/month** — first payout Feb 2026
-- [ ] Ensure salary is paid on the same date each month (consistency matters)
+- [x] **Determine optimal monthly salary level** → **52,000 SEK/month** — first payout Feb 25, 2026
+- [ ] Ensure salary is paid on the 25th each month (consistency matters for SGI)
 - [ ] Register with Försäkringskassan if not already done
 - [ ] Understand the 240-day parental leave rules and how to split with Frida
 

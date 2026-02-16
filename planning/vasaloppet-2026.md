@@ -1,9 +1,9 @@
 # Vasaloppet 2026 - Race Checklist
 
-**Race date:** Sunday, March 1, 2026
+**Race date:** Sunday, February 22, 2026
 **Start:** 08:00 from Salen
 **Finish:** Mora (90 km, classic technique only)
-**Travel:** Leave Saturday, Feb 28
+**Travel:** Leave Saturday, Feb 21
 
 ---
 
@@ -161,7 +161,7 @@
 
 ---
 
-## 4. PRE-RACE COLD RECOVERY (Thursday-Sunday)
+## 4. PRE-RACE COLD RECOVERY (Mon-Saturday)
 
 ### Evidence-Based Recovery Protocol
 
@@ -283,7 +283,7 @@
 
 ## 7. RACE DAY TIMELINE
 
-### Saturday, Feb 28 (Travel Day)
+### Saturday, Feb 21 (Travel Day)
 - [ ] Morning: Make protein bars, pack everything
 - [ ] Carb-load meals throughout the day
 - [ ] Drive to Salen area
@@ -292,9 +292,9 @@
 - [ ] Lay out all race gear
 - [ ] Light dinner, high carb, low fiber
 - [ ] In bed by 21:00 (alarm ~05:00)
-- [ ] Skicka faktura till Inkarnate for February (reminder from weekly plan)
+- [ ] Skicka faktura till Inkarnate for February (due end of month, not race day)
 
-### Sunday, Mar 1 (RACE DAY)
+### Sunday, Feb 22 (RACE DAY)
 - 05:00 - Wake up
 - 05:15 - Breakfast (oatmeal, banana, PB, coffee)
 - 06:00 - Final gear check, get dressed, apply body glide
