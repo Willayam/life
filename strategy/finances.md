@@ -18,6 +18,7 @@ Financial freedom = time freedom. I never want to take a project because I *have
 | Personal debt | -200,000 SEK |
 | Company owes me (private loans) | +300,000 SEK |
 | Company account balance | ~100,000 SEK |
+| Monthly salary (from company) | 52,000 SEK |
 | Already booked expenses (pending) | ~13,000-15,000 SEK |
 | Deferred expense (from 2024) | ~55,000 SEK |
 | Savings | ~0 |
@@ -33,20 +34,20 @@ Financial freedom = time freedom. I never want to take a project because I *have
 ## Massive Action Plan
 
 ### Phase 1: Stabilize (Feb-Apr 2026)
-- [ ] Set consistent monthly salary from company for SGI optimization (see parental leave section)
+- [x] Set consistent monthly salary from company for SGI optimization → **52,000 SEK/month, first payout Feb 2026**
 - [ ] Pay off 200K debt (target: done by April at ~60K/month surplus)
 - [ ] Begin paying back the 300K company loan to personal savings (tax-efficient)
 - [ ] Keep Inkarnate engagement solid - this is the lifeline
 - [ ] Launch Maxa and get first paying users
 
 ### Bookkeeping Plan (Feb 2026)
-- [ ] **Find all office papers** for bookkeeping review
-- [ ] **Complete bookkeeping** for rest of year — all expenses except the 55K
+- [x] **Complete bookkeeping** for 2025 — all expenses booked except Tony Robbins + Acquisition.com
+- [ ] **TODO (~2026-03-10, after Inkarnate payment):** Book remaining expenses: Tony Robbins + Acquisition.com
 - [ ] **Defer 55K expense** (from 2024) — don't book until after salary payout so account isn't emptied
 - [ ] **Cash flow calculation:**
   - ~100K in account
   - minus ~13-15K already booked expenses
-  - minus salary payout (amount TBD)
+  - minus 52,000 SEK salary payout
   - = remaining surplus → move to savings → invest in Tesla stock
 - [ ] **Stripe cost separation:**
   - Marcus costs → pulled from William personally
@@ -80,22 +81,15 @@ Financial freedom = time freedom. I never want to take a project because I *have
 - You need to establish a consistent salary NOW
 
 ### Action Items
-- [ ] **URGENT:** Determine optimal monthly salary level to report
-  - Must be high enough to maximize SGI
-  - Must be sustainable given company revenue
-  - Must be consistent every month from now until leave
-- [ ] Talk to an accountant about optimal salary vs dividend split for SGI purposes
+- [x] **Determine optimal monthly salary level** → **52,000 SEK/month** — first payout Feb 2026
 - [ ] Ensure salary is paid on the same date each month (consistency matters)
 - [ ] Register with Försäkringskassan if not already done
 - [ ] Understand the 240-day parental leave rules and how to split with Frida
 
-### Key Question to Resolve
-What is the maximum salary you can consistently pay yourself from the company given:
-- 90K/month revenue from Inkarnate
-- Company expenses (tools, potential e-bike lease, etc.)
-- Need to also pay back the 300K personal loan from company
-
-**A rough target might be 45,000-55,000 SEK/month salary** but this needs accountant input.
+### Salary Decision (2026-02-16)
+**Decided: 52,000 SEK/month gross salary.**
+- First payout: February 2026
+- Must be consistent every month Feb-Jul to establish SGI before parental leave
 
 ---
 
