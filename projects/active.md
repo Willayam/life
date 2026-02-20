@@ -77,10 +77,37 @@
 **Key contact:** (Inkarnate team)
 
 ### Current Workstreams (Feb 2026)
-1. **Editor changes** - Core editor improvements
-2. **Performance strategy** - Come up with a good strategy to help them make a real impact on performance
-3. **Website landing page** - Ideas for improving the marketing site
-4. **Map creation flow** - Top-down overhaul: intuitive nav, updated look and feel, clean and awesome UX experience. Start from the top and work to the details.
+1. **Map creation flow** - Top-down overhaul: intuitive nav, updated look and feel, clean and awesome UX experience. Start from the top and work to the details.
+	1. Problems to solve:
+		1. Simplify for new users
+		2. Increase marketplace sales
+		3. Increase explore discoverability
+	2. Design principles:
+		1. Shortcut to my goals
+		2. No choice is irreversible
+	3. Thinking of new map creation on a spectrum from blank -> done
+		1. Everything just leads into the editor in different ways.
+			1. 1-click shortcuts
+			2. Via preview
+2. **Editor changes** - Core editor improvements
+	1. High level hierarchy
+		1. Current has things a bit spread out
+		2. Unified, Figma style
+		3. Quick wins:
+			1. Cleaned up navbar
+				1. Remove tools from top
+				2. Add map rename/details to top
+				3. Emphasize Export more
+				4. Move zoom/canvas controls in here.
+			2. Merge objects & layer panel.
+			3. Simplified main menu
+				1. Use icons sparingly, just to "anchor" most important actions visually
+				2. "Add New"- button for faster map creation.
+	2. Per tool
+		1. Group without dialogs
+			1. Faster rename
+3. **Performance strategy** - Come up with a good strategy to help them make a real impact on performance
+4. **Website landing page** - Ideas for improving the marketing site
 
 ### Ongoing
 - [ ] Weekly check-ins with Inkarnate team
@@ -94,20 +121,33 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 ## 3. Clarity.video
 
-**Result:** New consulting engagement generating additional income.
+**Result:** Full product partnership with profit share. Build Clarity into a strong standalone platform with recurring revenue.
 
-**Purpose:** Additional revenue while building. Also builds portfolio and network.
+**Purpose:** Additional revenue stream aligned with my skills. Skin in the game means I only win when the platform wins. Builds portfolio, network, and potential equity position.
 
-**Status:** Risk-based proposal sent 2026-02-13. Mikey replied — looping in team, discussing internally. William replied: return to me with any questions. Follow up Tue Feb 18 if no further reply.
+**Status:** Meeting with Todd, Mikey, Joe, and William held 2026-02-20. Deal verbally agreed — profit share model, start with 2-3 month test. Full proposal document created. Next meeting Thu Feb 26 to finalize and sign.
 
-### Deal Structure (Proposed Feb 2026)
+### Deal Structure (Agreed Feb 2026)
 - **Model:** 50/50 net profit split. I cover all dev costs.
 - **Floor:** $1,000/month (invoiced immediately to start)
 - **Monthly process:** I send P&L report + invoice the difference
 - **Net profit =** Stripe revenue - direct platform costs (hosting, APIs, Stripe fees, dev resources)
 - **Dev costs (Marcus, etc.) come out of revenue before split** — incentive to be lean
-- **Equity:** Separate conversation with Todd directly, once deal is in place or after proving results
+- **Equity:** Separate conversation with Todd after 2-3 months of results
+- **Initial term:** 2-3 months as collaboration test, then reassess
 - **Last summer comparison:** They paid $10K/month for a 2-month sprint. Now getting full product team for $1K/month floor.
+
+### Key Findings from Meeting (2026-02-20)
+- **Security is critical:** Stripe keys exposed in web app, multiple API keys hardcoded
+- **Technical debt:** Two backends running simultaneously, Angular instead of React
+- **Approach agreed:** Strangler pattern — build new flows while gradually replacing old system
+- **Business Mastery booth opportunity:** Todd presenting day 2, 300+ attendees, testimonial collection, 2-week window to propose to Team Tony
+- **iMessage/App Store distribution:** ~80% approval rate, early adopter play, requires native iOS (long-term)
+- **AI features:** Meeting-to-proposal automation, calendar integration, avatar video generation
+- **Testimonial platform ("Wall of Love"):** Senja-inspired, white-label for Tony events
+
+### Proposal Document
+- [Full proposal](clarity-proposal-2026-02.md)
 
 ### Next Steps
 - [x] Write and send initial proposal
@@ -118,10 +158,15 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 - [x] Sent risk-based proposal: 50/50 profit, $1K floor, I cover dev costs
 - [x] Mikey replied — looping in rest of team, discussing internally
 - [x] William replied: return to me with any questions
-- [ ] **Follow up if no further reply by Tue 2026-02-18**
-- [ ] Schedule call to finalize terms
-- [ ] If accepted: scope the engagement, agree on terms, send first invoice
-- [ ] Have equity conversation with Todd
+- [x] Meeting with full team (Todd, Mikey, Joe, William) — 2026-02-20
+- [x] Create detailed partnership proposal document
+- [ ] **Thu Feb 26 meeting: Finalize and sign agreement**
+- [ ] Todd: Schedule Team Tony follow-up (2-week window for booth proposal)
+- [ ] Develop bigger vision for Business Mastery booth opportunity before Thu call
+- [ ] Get full codebase access, Stripe dashboard, analytics tools
+- [ ] Coordinate handover with Marcus
+- [ ] Send first $1K invoice once signed
+- [ ] Have equity conversation with Todd (after 2-3 months)
 
 ### Stripe Reporting
 - [ ] Set up multi-reports: Stripe payments vs costs of running the service
