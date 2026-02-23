@@ -11,6 +11,7 @@ Related knowledge notes:
 - [[exercise-longevity-mechanisms]] - Biological mechanisms deep dive
 - [[vo2max-mechanistic-biology]] - What VO2max actually measures (proxy vs cause)
 - [[grip-strength-as-proxy-what-it-really-measures]] - What grip strength reflects
+- [[functional-capacity-thresholds]] - Decline rates, independence thresholds, Centenarian Decathlon
 - [[time-efficient-training-research]] - Protocols and programming details
 
 ---
@@ -150,7 +151,187 @@ All longevity-by-sport studies are **observational with significant confounders:
 
 ---
 
-## Part 3: The 80/20 for Lean, Strong, and Conditioned
+## Part 3: Working Backwards from Death
+
+Instead of asking "which sport gives the most years?" the better question is: **"What actually kills people, and what physical capacities would have prevented it?"**
+
+### The Causes of Death That Exercise Can Prevent
+
+**Ages 65+, leading causes (CDC):**
+1. Heart disease (~25-30% of deaths)
+2. Cancer (~20%)
+3. COVID/respiratory disease (~8-10%)
+4. Cerebrovascular disease/stroke (~6%)
+5. Alzheimer's/dementia (~5-6%, rising 3% per year)
+6. Unintentional injuries including falls (~4%, rising 1.2% per year)
+7. Diabetes (~3%)
+
+### The Failure Chains: Cause of Death → Physical Failure → Trainable Quality
+
+**1. FALLS → FRACTURE → DEATH (The Silent Killer)**
+
+Hip fracture 1-year mortality: **22-30%** (up to 54% for nursing home men). This is a death sentence disguised as an orthopedic injury. 87-96% occur in people 65+.
+
+```
+The failure chain:
+Lost balance (vestibular decline, proprioception loss)
+  → Failed to catch yourself (insufficient reactive power, slow neuromuscular response)
+    → Hit the ground hard (no muscle mass to absorb impact)
+      → Bone broke (osteoporosis from years of insufficient loading)
+        → Hospitalized → immobilized → pneumonia/blood clot → dead
+```
+
+**Trainable qualities that break this chain:**
+- **Balance + proprioception** → single-leg work, unstable surfaces, eyes-closed drills
+- **Reactive power** (force × velocity) → explosive movements, jump training, medicine ball throws
+- **Lower body strength** → squats, deadlifts, step-ups
+- **Bone density** → heavy resistance training + impact loading (jumping, stairs). Swimming and cycling do NOT build bone -- confirmed by systematic review of 18 studies.
+- **Muscle mass** → padding around joints + buffer against immobility-induced wasting
+
+Exercise reduces falls by **21-39%** in community-dwelling elderly (meta-analysis). Balance-focused programs with >3 hrs/week of challenging exercise achieve the 39% number.
+
+**2. CARDIOVASCULAR DISEASE → HEART ATTACK/STROKE → DEATH**
+
+```
+The failure chain:
+Chronic inflammation + metabolic dysfunction
+  → Endothelial dysfunction (the FIRST step)
+    → Atherosclerotic plaque builds over decades
+      → Plaque ruptures or artery blocks
+        → Heart attack or stroke
+          → Cardiac arrest or brain death
+```
+
+OR during acute illness:
+
+```
+Infection/surgery/trauma
+  → Cardiac demand spikes (need to pump harder)
+    → Insufficient cardiac reserve (weak heart, low stroke volume)
+      → Heart fails under the stress
+```
+
+**Trainable qualities that break this chain:**
+- **Endothelial function** → aerobic exercise (shear stress → nitric oxide production)
+- **Cardiac reserve** → VO2max training (bigger stroke volume, stronger heart)
+- **Anti-inflammatory state** → any regular exercise (myokine signaling suppresses TNF-alpha, CRP)
+- **Metabolic flexibility** → Zone 2 training (fat oxidation, insulin sensitivity)
+- **Blood pressure regulation** → combined aerobic + resistance training
+
+**3. CANCER → METASTASIS → DEATH**
+
+Exercise reduces risk of 13+ cancer types (NCI meta-analysis):
+- Colon: **20-24% reduction**
+- Breast: **12-21% reduction**
+- Bladder, endometrial, esophageal, renal, gastric: **10-20% reduction**
+- Cancer survivors who exercise: **40-50% lower cancer-specific mortality**
+
+```
+The failure chain:
+Chronic inflammation + high insulin/IGF-1 + poor immune surveillance
+  → Damaged cells escape immune detection
+    → Tumor grows in inflammatory, high-insulin environment
+      → Metastasis → death
+```
+
+**Trainable qualities that break this chain:**
+- **Muscle mass (myokine factory)** → irisin inhibits cancer signaling (PI3K, Akt, mTOR, NF-kB), SPARC suppresses tumor growth
+- **Low body fat** → reduces chronic inflammation, lowers insulin/IGF-1
+- **Immune function** → regular moderate exercise enhances NK cell surveillance
+- **Metabolic health** → exercise reduces the hyperinsulinemia that fuels many cancers
+
+**4. DEMENTIA → LOSS OF SELF → DEATH**
+
+Exercise reduces dementia risk by **20-45%** (range across studies; Framingham Heart Study, 160,000 participants: 45% for highest activity). Midlife exercise has the strongest protective effect.
+
+```
+The failure chain:
+Neuroinflammation + cerebrovascular damage + reduced neuroplasticity
+  → Hippocampal atrophy + amyloid accumulation
+    → Memory loss → cognitive decline → loss of independence
+      → Aspiration pneumonia, falls, inability to self-care → death
+```
+
+**Trainable qualities that break this chain:**
+- **Aerobic fitness** → increases BDNF (brain-derived neurotrophic factor), drives hippocampal neurogenesis, maintains cerebrovascular health
+- **Coordination + motor complexity** → complex movements (dance, racquet sports, martial arts) challenge the brain's motor-cognitive networks
+- **Cardiovascular health** → the brain receives 20% of cardiac output. A healthy heart = a well-perfused brain.
+- **Social engagement** → socially demanding exercise (team/partner sports) compounds the cognitive benefit
+
+**5. FRAILTY → LOSS OF INDEPENDENCE → DEATH**
+
+This is the slow one. Not a single event but a cascade of decline that ends in institutionalization, then death.
+
+```
+The failure chain:
+Gradual muscle loss (sarcopenia, -3-5%/decade after 30)
+  → Reduced movement → reduced calorie needs → reduced appetite
+    → Less protein intake → accelerated muscle loss
+      → Can't get off toilet → can't climb stairs → can't carry groceries
+        → Loss of independence → nursing home → depression + immobility → death
+```
+
+**Functional independence thresholds (Attia's "Centenarian Decathlon"):**
+- Get off the floor with max one arm of support
+- Carry 10 lbs per hand up 3 flights of stairs
+- Lift a 20-lb suitcase overhead
+- Pick up a 30-lb child from the floor
+- Hike 1.5 miles on uneven terrain
+- Do 5 pull-ups
+- Balance on one leg for 30 seconds (eyes open)
+
+**Hard thresholds from geriatric medicine:**
+- VO2max below ~18 ml/kg/min = can't live independently
+- Grip strength below 27 kg (men) / 16 kg (women) = probable sarcopenia
+- Gait speed below 1.0 m/s = mortality risk factor; each 0.1 m/s faster = 23-25% lower mortality
+- Can't stand from chair without arms = below functional threshold
+
+### The Critical Insight: POWER Declines Fastest
+
+This is the most important training insight from all the research:
+
+**Rate of decline by physical quality:**
+
+| Quality | Decline Rate | Notes |
+|---------|-------------|-------|
+| **Muscle power** (force × velocity) | **-1.1 to -2.4%/year** | Fastest decline. In mobility-limited elderly, power is reduced 95% while mass is only reduced 25%. |
+| VO2max | -5.5 to -12%/decade | Active vs sedentary makes a 2x difference in decline rate |
+| Muscle mass | -3-5%/decade (30-50), -10-20%/decade (50+) | Accelerates with age |
+| Bone density | ~-1%/year (women post-menopause) | Men at roughly half the female rate |
+| Balance/proprioception | Progressive, sharp inflection at 75 | Fall risk doubles after 75 |
+
+**Power = force × velocity.** It's what allows you to catch yourself when you trip, stand up quickly, react to threats. Most people train slow and heavy (force only). Almost nobody trains fast. But the velocity component degrades 2-3x faster than the force component.
+
+**This means:** Heavy squats alone are insufficient. You also need explosive movements -- box jumps, medicine ball throws, kettlebell swings, power cleans, or simply standing up from a chair as fast as possible. Training the velocity component is the single most undertrained and fastest-declining quality.
+
+### The Work-Backwards-From-80 Math
+
+If you need a VO2max of 18 at age 85, and it declines ~10%/decade (active) to ~15%/decade (sedentary):
+- Active 50-year-old needs VO2max ≥30 today → stays above 18 at 85
+- Sedentary 50-year-old at VO2max 25 → hits 18 at ~70, dependent by 75
+- Active 50-year-old at VO2max 45 → doesn't hit 18 until 95+
+
+Attia's rule: aim for top 10-20% fitness for your age now so you have margin at 80-90. You're not training for today. You're training for the 80-year-old version of yourself who needs to survive pneumonia, catch himself on a curb, or climb three flights of stairs.
+
+### The Training Priority Stack (Ordered by What Kills You)
+
+Based on cause-of-death data, failure chain analysis, and rate of physical decline:
+
+| Priority | Quality | Why | What Trains It |
+|----------|---------|-----|----------------|
+| 1 | **Explosive power** | Fastest declining, prevents falls, needed for reactive balance | KB swings, jumps, medicine ball throws, power cleans |
+| 2 | **Cardiorespiratory fitness** | #1 mortality predictor, cardiac reserve for acute illness | HIIT (Norwegian 4x4, Tabata) + Zone 2 |
+| 3 | **Muscle strength + mass** | Myokine factory, metabolic health, functional independence | Heavy compound lifts 2x/week |
+| 4 | **Balance + proprioception** | Fall prevention (22-30% hip fracture mortality at 1 year) | Single-leg work, unstable surfaces, eyes-closed drills |
+| 5 | **Bone density** | Prevents fractures that start the death cascade | Heavy resistance + impact loading (NOT swimming/cycling) |
+| 6 | **Metabolic health** | Prevents diabetes, feeds cancer prevention | Zone 2 + resistance training + body composition |
+| 7 | **Cognitive stimulation** | 20-45% dementia risk reduction | Complex/social movement (racquet sports, dance, martial arts) |
+
+See [[functional-capacity-thresholds]] for full threshold data and decline rates.
+
+---
+
+## Part 4: The 80/20 for Lean, Strong, and Conditioned
 
 ### What the Research Says About Minimum Effective Dose
 
@@ -185,7 +366,7 @@ The Shailendra et al. (2022) meta-analysis found resistance training's sweet spo
 
 ---
 
-## Part 4: Practical Frameworks
+## Part 5: Practical Frameworks
 
 ### The Minimum Viable Training Week (~3-3.5 hrs)
 
@@ -235,7 +416,7 @@ Add one racquet sport session per week to any of the above. Tennis or padel 1x/w
 
 ---
 
-## Part 5: The Core Movements
+## Part 6: The Core Movements
 
 If you could only do 5 exercises forever:
 
@@ -297,6 +478,17 @@ Add **McGill Big 3** daily for spine health: modified curl-up, side plank, bird 
 - Holt-Lunstad et al. (2010, 2015) - Social connection meta-analyses
 - Lopez-Bueno et al. (2023), JAMA Internal Medicine - Combined exercise, n=500,000
 - Shailendra et al. (2022), American Journal of Preventive Medicine - Resistance training meta-analysis
+
+### Death-Backwards Framework
+- CDC Cause-Specific Mortality (2020), PMC - Leading causes of death 65+
+- PMC Systematic Review (2019) - Hip fracture 1-year mortality 22-30%
+- NCI Physical Activity Fact Sheet - Exercise reduces 13+ cancer types
+- Framingham Heart Study (2025), JAMA Network Open - Physical activity and dementia risk
+- Sherrington et al. (2019), Cochrane - Exercise reduces falls 21-39%
+- Attia - Centenarian Decathlon / backcasting framework
+- EWGSOP2 Consensus (2019), PMC - Sarcopenia definition (strength > mass)
+- PMC (2023) - 10-year longitudinal changes in muscle power, force, and velocity
+- ScienceDirect systematic review - Swimming/cycling do NOT build bone density
 
 ### Protocols
 - Schoenfeld et al. (2016, 2019) - Training frequency meta-analyses
