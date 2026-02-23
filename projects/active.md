@@ -235,6 +235,7 @@ _These are valuable but should not jump ahead of revenue-critical work._
 
 _Ideas to evaluate when bandwidth allows. Each should meet the small bets criteria._
 
+- [ ] **Mortality Map** - Interactive open-source node graph: Causes of Death ← Mechanisms ← Trainable Actions/Protocols. Visual tool showing how specific interventions (exercise, nutrition, sleep) flow through biological mechanisms to reduce specific mortality risks. Built on real study data. See [[exercise-longevity-research]] for the research foundation. Could be a content play + open source reputation builder + genuinely useful tool. Scope: web app, interactive graph visualization (D3/force-directed or similar), open data format so others can contribute.
 - [ ] Opportunities from Michael's network
 - [ ] AI automation services (testing with dad's Expa SE work)
 - [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
