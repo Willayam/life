@@ -69,16 +69,11 @@ Regardless of Net Profit in any given month, Clarity shall pay William a minimum
 
 ### 3.4 Payment Process
 
-All invoices are payable within ten (10) business days of receipt via wire transfer or other mutually agreed method.
-
-Each month has two components:
-
-1. **Floor invoice.** At the beginning of each month, William shall invoice Clarity for the Floor Payment of USD $1,000.
-2. **Reconciliation invoice.** Within five (5) business days after the end of each calendar month, William shall prepare a report containing: (i) Stripe payouts for that month, (ii) Permitted Deductions with supporting documentation, (iii) calculated Net Profit, and (iv) William's Profit Share. If the Profit Share exceeds the Floor Payment already invoiced, William shall invoice Clarity for the difference.
+Within five (5) business days after the end of each calendar month, William shall prepare a report containing: (i) Stripe payouts for that month, (ii) Permitted Deductions with supporting documentation, (iii) calculated Net Profit, and (iv) William's Profit Share. William shall then invoice Clarity for the greater of the Floor Payment or the Profit Share. Invoices are payable within ten (10) business days of receipt via wire transfer or other mutually agreed method.
 
 ### 3.5 Late Payments
 
-Any amount not paid when due shall bear interest at the rate of one and a half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is less, calculated from the date such payment was due until the date of actual payment.
+Any amount not paid when due shall bear interest at the rate of two percent (2%) per month, or the maximum rate permitted by applicable law, whichever is less, calculated from the date such payment was due until the date of actual payment.
 
 ---
 
