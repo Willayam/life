@@ -69,14 +69,12 @@ Regardless of Net Profit in any given month, Clarity shall pay William a minimum
 
 ### 3.4 Payment Process
 
-Payment shall follow this monthly cycle:
+All invoices are payable within ten (10) business days of receipt via wire transfer or other mutually agreed method.
 
-1. **Floor Payment (in advance).** On the first business day of each month, Clarity shall pay William the Floor Payment of USD $1,000 for that month.
-2. **Monthly Report.** Within five (5) business days after the end of each calendar month, William shall prepare and deliver a report containing: (i) the Stripe payouts for the month, (ii) Permitted Deductions with supporting documentation, (iii) calculated Net Profit, and (iv) William's Profit Share amount.
-3. **Reconciliation Invoice.** If William's Profit Share for the previous month exceeds the Floor Payment already paid, William shall invoice Clarity for the difference. Clarity shall pay the invoice within ten (10) business days of receipt.
-4. **First Month.** For the first month of this Agreement, only the Floor Payment applies. The first reconciliation invoice will cover the second month of the Agreement.
+Each month has two components:
 
-Payment shall be made via wire transfer or other mutually agreed method.
+1. **Floor invoice.** At the beginning of each month, William shall invoice Clarity for the Floor Payment of USD $1,000.
+2. **Reconciliation invoice.** Within five (5) business days after the end of each calendar month, William shall prepare a report containing: (i) Stripe payouts for that month, (ii) Permitted Deductions with supporting documentation, (iii) calculated Net Profit, and (iv) William's Profit Share. If the Profit Share exceeds the Floor Payment already invoiced, William shall invoice Clarity for the difference.
 
 ### 3.5 Late Payments
 
