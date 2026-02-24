@@ -148,6 +148,70 @@ async function listEvents(auth, timeMin, timeMax, query) {
   console.log(`Total: ${allEvents.length} event(s)`);
 }
 
+async function deleteEvent(auth, query, date) {
+  const calendar = google.calendar({ version: 'v3', auth });
+  const start = new Date(`${date}T00:00:00+01:00`);
+  const end = new Date(start.getTime() + 24 * 60 * 60 * 1000);
+
+  // Search across all calendars
+  const calList = await calendar.calendarList.list();
+  for (const cal of calList.data.items) {
+    if (cal.accessRole !== 'owner' && cal.accessRole !== 'writer') continue;
+    try {
+      const res = await calendar.events.list({
+        calendarId: cal.id,
+        timeMin: start.toISOString(),
+        timeMax: end.toISOString(),
+        singleEvents: true,
+        q: query,
+      });
+      for (const event of (res.data.items || [])) {
+        if (event.summary && event.summary.includes(query)) {
+          await calendar.events.delete({ calendarId: cal.id, eventId: event.id });
+          console.log(`Deleted: ${event.summary} (${date})`);
+          return;
+        }
+      }
+    } catch (err) { /* skip */ }
+  }
+  console.log(`No event found matching "${query}" on ${date}`);
+}
+
+async function updateEvent(auth, query, date, updates) {
+  const calendar = google.calendar({ version: 'v3', auth });
+  const start = new Date(`${date}T00:00:00+01:00`);
+  const end = new Date(start.getTime() + 24 * 60 * 60 * 1000);
+
+  const calList = await calendar.calendarList.list();
+  for (const cal of calList.data.items) {
+    if (cal.accessRole !== 'owner' && cal.accessRole !== 'writer') continue;
+    try {
+      const res = await calendar.events.list({
+        calendarId: cal.id,
+        timeMin: start.toISOString(),
+        timeMax: end.toISOString(),
+        singleEvents: true,
+        q: query,
+      });
+      for (const event of (res.data.items || [])) {
+        if (event.summary && event.summary.includes(query)) {
+          const resource = { ...event };
+          if (updates.title) resource.summary = updates.title;
+          if (updates.description) resource.description = updates.description;
+          if (updates.start && updates.end) {
+            resource.start = { dateTime: `${date}T${updates.start}:00`, timeZone: TIMEZONE };
+            resource.end = { dateTime: `${date}T${updates.end}:00`, timeZone: TIMEZONE };
+          }
+          const updated = await calendar.events.update({ calendarId: cal.id, eventId: event.id, resource });
+          console.log(`Updated: ${updated.data.summary}`);
+          return;
+        }
+      }
+    } catch (err) { /* skip */ }
+  }
+  console.log(`No event found matching "${query}" on ${date}`);
+}
+
 async function createEvent(auth, args) {
   const calendar = google.calendar({ version: 'v3', auth });
 
@@ -320,6 +384,29 @@ async function main() {
     case 'create': {
       const args = parseArgs(process.argv.slice(3));
       await createEvent(auth, args);
+      break;
+    }
+
+    case 'delete': {
+      const query = process.argv[3];
+      const date = process.argv[4];
+      if (!query || !date) {
+        console.error('Usage: calendar.js delete "event name" YYYY-MM-DD');
+        process.exit(1);
+      }
+      await deleteEvent(auth, query, date);
+      break;
+    }
+
+    case 'update': {
+      const query = process.argv[3];
+      const date = process.argv[4];
+      const updates = parseArgs(process.argv.slice(5));
+      if (!query || !date) {
+        console.error('Usage: calendar.js update "event name" YYYY-MM-DD --title "New Title" --start HH:MM --end HH:MM');
+        process.exit(1);
+      }
+      await updateEvent(auth, query, date, updates);
       break;
     }
 
