@@ -243,7 +243,7 @@ Neither Party may assign or transfer this Agreement, or any rights or obligation
 
 All notices under this Agreement shall be in writing and sent via email with read receipt, or by registered mail, to the addresses set forth above.
 
-**William:** william@coccoventures.se
+**William:** williamlarsten@gmail.com
 **Clarity:** todd@wirebuzz.com
 
 ### 14.6 Severability
