@@ -63,15 +63,19 @@ The Parties shall share Net Profit from the Platform on a 50/50 basis.
 
 **Net Profit.** Gross Revenue minus Permitted Deductions.
 
-### 3.3 Minimum Monthly Payment
+### 3.3 Startup Fee
+
+Upon execution of this Agreement, Clarity shall pay William a one-time startup fee of USD $1,000, payable within ten (10) business days of signing.
+
+### 3.4 Minimum Monthly Payment
 
 Regardless of Net Profit in any given month, Clarity shall pay William a minimum of USD $1,000 per month (the "Floor Payment"). If William's Profit Share for any month exceeds the Floor Payment, William shall receive the Profit Share amount. The Floor Payment is not an advance against future Profit Share; it is a minimum guarantee.
 
-### 3.4 Payment Process
+### 3.5 Payment Process
 
 Within five (5) business days after the end of each calendar month, William shall prepare a report containing: (i) Stripe payouts for that month, (ii) Permitted Deductions with supporting documentation, (iii) calculated Net Profit, and (iv) William's Profit Share. William shall then invoice Clarity for the greater of the Floor Payment or the Profit Share. Invoices are payable within ten (10) business days of receipt via wire transfer or other mutually agreed method.
 
-### 3.5 Late Payments
+### 3.6 Late Payments
 
 Any amount not paid when due shall bear interest at the rate of two percent (2%) per month, or the maximum rate permitted by applicable law, whichever is less, calculated from the date such payment was due until the date of actual payment.
 
