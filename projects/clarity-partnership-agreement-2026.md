@@ -25,7 +25,7 @@ This Agreement formalizes the partnership between William and Clarity for the on
 
 ## 2. Scope of Work
 
-William shall perform all services in a professional and workmanlike manner, consistent with industry standards. William shall serve as the product and technology lead for the Platform, responsible for:
+William shall serve as the product and technology lead for the Platform, responsible for:
 
 1. **Security remediation** — Rotating exposed credentials, moving all keys server-side, implementing error tracking
 2. **Platform rebuild** — Strangler pattern migration of legacy systems, improving core flows (video recording, page building, onboarding)
