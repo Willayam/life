@@ -113,6 +113,56 @@ This won't come from consulting. It comes from:
 
 ---
 
+## Monthly Personal Budget (After Tax)
+
+**Net salary:** 39,690 SEK/month
+
+### Fixed Costs
+
+| Category | Amount (SEK) | Notes |
+|----------|-------------|-------|
+| Rent | 10,336 | |
+| Garage | 750 | |
+| Home insurance | 129 | |
+| House cleaning | 3,245 | Will increase when going to 2x/week |
+| Preschool (Charlie) | 823 | |
+| Barnförsäkring (Charlie) | 41 | |
+| Charlie savings (Lysa) | 250 | |
+| Debt repayment to dad | 2,000 | Until fully repaid |
+| **Total fixed** | **17,574** | |
+
+### Remaining After Fixed
+
+| | Amount (SEK) |
+|--|-------------|
+| Net salary | 39,690 |
+| Fixed costs | -17,574 |
+| **Available** | **22,116** |
+
+### Variable / Discretionary (to track & refine)
+
+| Category | Estimated | Notes |
+|----------|-----------|-------|
+| Groceries & food | ~5,000–7,000 | Track via Klarna/receipts |
+| Transport | ~1,000–2,000 | SL, occasional taxi |
+| Klarna installments | varies | Tony Robbins, Power, etc. |
+| Amex debt repayment | varies | Increasing month-over-month ✓ |
+| Subscriptions (Netflix, etc.) | ~500–1,000 | |
+| Personal / misc | ~1,000–2,000 | |
+| **Estimated variable** | **~10,000–14,000** | |
+
+### Monthly Surplus Target
+
+| | Amount (SEK) |
+|--|-------------|
+| Available after fixed | 22,116 |
+| Estimated variable | -12,000 |
+| **Estimated surplus** | **~10,000** |
+
+_This budget framework will be enriched over time as we track actual spending. The goal is to maximize debt payoff and build savings once debt is cleared._
+
+---
+
 ## Monthly Financial Review Checklist
 - [ ] What was total revenue this month?
 - [ ] What was salary paid?
