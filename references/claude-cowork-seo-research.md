@@ -20,57 +20,66 @@ His Feb 2026 thread timeline (the linked tweet falls ~Feb 12-13 in this sequence
 2. **Feb 1** — "Claude Cowork is a literal CHEAT CODE for SEO. STEAL any competitor's SEO rankings" (47.2K views)
 3. **Feb 1** — "After 14+ years in local SEO, here's every SEO tip I could come up with" (22.6K views)
 4. **~Feb 8** — "CHATGPT HAS A BIG PROBLEM. Claude can now do local SEO for you"
-5. **~Feb 12-13** — **The linked tweet** (exact content not retrievable via web scraping — X blocks programmatic access)
+5. **~Feb 12-13** — **The linked tweet: 7 Claude Cowork prompts for local SEO dominance** (see below)
 6. **Feb 17** — SEO masterclass video: "How Claude Code works for SEO, how to set it up, and why it will change SEO forever" (32.4K views)
 7. **~Feb 19** — "This CLAUDE.md file will make you a 10x better SEO" — a system file that makes Claude think like a senior SEO
 
 ---
 
-## What Claude Cowork Actually Does for SEO
+## The Linked Tweet: 7 Prompts for Local SEO Dominance
+
+These are the exact prompts from the tweet. Each one is a standalone Claude Cowork workflow:
+
+### 1. Competitor Content Gap Analysis
+> "Scan these sites. What are these competitors' sites missing? Find the content gaps and tell me 5 topics I should cover to be more helpful than them."
+
+**Why it works:** If you provide more value, you win the #1 spot. Period.
+
+### 2. Full Schema Audit
+> "In Chrome, open {{PASTE_URL}}. Check page source and list all schema. Say if LocalBusiness exists and if it's useful. Output: (1) existing schema + verdict, (2) missing/weak schema + priority. For HIGH priority only, generate clean JSON-LD with placeholders. No guessing. No explanations. Be blunt."
+
+### 3. Low-Hanging Fruit Keywords
+> "List 20 high-intent local keywords for a [Service] in [City] that indicate a customer is ready to buy NOW."
+
+**Why it works:** Instantly gives you "near me" and "emergency" keywords that actually convert.
+
+### 4. Business & Competitor Deep Comparison
+> "Open Chrome, visit my site {{MY_WEBSITE_URL}} and extract my business name, address, services, cities served and key selling points, then open these competitors {{COMP1}}, {{COMP2}}, {{COMP3}} and extract their services, target locations, strengths and trust signals, compare me vs them."
+
+### 5. Dominate the GBP Feed
+> "Analyze these [XYZ.com] competitor GBP posts by opening their GBP in Chrome. Identify their keyword gaps, then write 10 high-impact posts for my business in [City] that include local landmarks and a hard 'Call Now' CTA."
+
+**Why it works:** Cowork does the heavy lifting while you take the #1 spot.
+
+### 6. Competitor GBP Analysis → Posting Plan
+> "Open Chrome and review the Google Business Profile posts of these competitors: {{COMP1}}, {{COMP2}}, {{COMP3}}. Analyze their post types, posting frequency, content themes, offers, CTAs, media usage, and timing. Identify what patterns correlate with strong map rankings and engagement. Based on this analysis, create a clear, non-generic posting plan for my GBP that specifies post types, frequency, themes, and CTA style. Avoid vague advice. Make the plan directly actionable."
+
+### 7. Full Keyword Research via Ahrefs
+> "Open Chrome, go to Ahrefs and analyze my competitor XYZ.com's top 20 pages, extract their target keywords, search volumes, and give me a prioritized list with difficulty scores in a spreadsheet."
+
+**Why it works:** Done in 10 minutes. Not 10 hours.
+
+---
+
+## The Bigger Picture: What Claude Cowork Does for SEO
 
 Claude Cowork launched January 2026. It's an autonomous AI agent inside the Claude desktop app. You give it a task, point it at a folder or website, and it executes — reading files, opening Chrome, visiting pages, running analysis across multiple tabs, and delivering structured outputs (spreadsheets, reports) locally.
 
-### The Full Workflow (15 Prompts, End-to-End)
+### Additional Workflows (from other threads & sources)
 
-Based on multiple sources (The AI Corner, MTSoln, Ferventers, AI Maker Labs):
+Based on The AI Corner, MTSoln, Ferventers, AI Maker Labs:
 
-**1. Research & Competitive Intelligence**
-- Map competitive landscape automatically
-- Reverse-engineer competitor keyword strategy
-- Find content gaps worth filling
-- Extract and compile competitor Google Business Profile data (reviews, keywords, photos, profile completeness)
-- Creates a "ranking factor hypothesis" specific to your niche
-
-**2. Keyword Research**
-- Two workflows: one for local/service businesses, one for SaaS/online
-- Focused on revenue-driving keywords, not vanity metrics
-- "Prompt-shaped" keyword targeting (queries that AI users actually ask)
-
-**3. Technical Audits**
-- Full site health checks
-- Schema markup validation + JSON-LD generation
-- Internal linking analysis
-- Codebase analysis for technical SEO debt (using Claude Code "Ultra-Think")
-- The diagnostic work agencies charge $2K+ for
-
-**4. Content Optimization**
+**Content Optimization**
 - On-page scoring for existing pages
 - Pre-publish checklists for new content
 - E-E-A-T analysis against Google's Sep 2025 Quality Rater Guidelines
 - Citation-ready scorecard (if score < 70, don't publish)
 
-**5. Local SEO Specific**
-- Competitor-informed Google Business Profile post generation
-- Full 30-day GBP posting calendar
-- Review volume optimization strategy
-- Business name keyword optimization
-- 24/7 availability signals
-
-**6. GEO (Generative Engine Optimization)**
+**GEO (Generative Engine Optimization)**
 - Optimizing content to be cited by AI platforms (ChatGPT, Perplexity, Claude, Google AI Overviews)
 - This is how modern SEO is done in 2026 — not a separate service
 
-**7. Reporting & Ongoing**
+**Reporting & Ongoing**
 - Monthly SEO reporting automated
 - Outputs in Excel or PDF format
 - Can execute recommended changes directly
