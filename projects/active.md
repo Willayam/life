@@ -240,3 +240,4 @@ _Ideas to evaluate when bandwidth allows. Each should meet the small bets criter
 - [ ] AI automation services (testing with dad's Expa SE work)
 - [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
 - [ ] Content-driven products (once audience exists)
+- [ ] **Life Server** - Always-on home server (Mac Mini) for background sync of Gmail/Calendar/Contacts to vault, cross-device access via Tailscale, git auto-sync. See [[always-on-life-server-architecture]]

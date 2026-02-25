@@ -43,7 +43,7 @@ life/
     family.md           # Family relationships and action items
     weekly/
       template.md       # RPM weekly planning template
-      2026-W06.md       # Current week
+      2026-W09.md       # Current week
 
   health/
     dashboard.md        # Health metrics, training, sleep, nutrition
@@ -53,6 +53,15 @@ life/
   references/           # Content by others - articles, book notes, clippings (tagged)
   people/               # Personal CRM - one file per person
   templates/            # Note templates for daily, people, knowledge, etc.
+
+  memory/               # Persistent memory for Claude across sessions
+    sessions/           # One file per day of Claude interaction
+    commitments.md      # All open commitments (single source of truth)
+    decisions.md        # Key decisions with context and rationale
+
+  indexes/              # Cross-cutting views maintained by Claude
+    tasks.md            # All open action items across the vault
+    waiting-for.md      # Things waiting on other people
 
   .claude/
     skills/             # Custom Claude Code skills
@@ -82,6 +91,26 @@ When working in this repository, Claude should:
 - **Maintain the people CRM:** When we discuss someone, update or create their file in people/.
 - **Capture knowledge:** When insights come up in conversation, save them to knowledge/.
 - **Daily notes:** At end of sessions or when I brain dump, log to daily/YYYY-MM-DD.md.
+
+## Session Rituals
+
+### At Session Start
+1. Read the last 2-3 files in `memory/sessions/` for continuity
+2. Check `memory/commitments.md` for open commitments
+3. Check `indexes/waiting-for.md` for pending follow-ups
+4. Skim `indexes/tasks.md` for current priorities
+
+### During Session
+- When a new commitment is made, update `memory/commitments.md`
+- When a decision is made, log it in `memory/decisions.md`
+- When tasks are added/completed, update `indexes/tasks.md`
+- When waiting on someone, add to `indexes/waiting-for.md`
+
+### At Session End (or when context is getting long)
+- Write a session summary to `memory/sessions/YYYY-MM-DD.md`
+- Update `memory/commitments.md` with any new/completed commitments
+- Update `indexes/tasks.md` if tasks changed
+- Commit and push all changes
 
 ## Action Skills (What Claude Can Do)
 
@@ -117,13 +146,13 @@ Claude has tools to take real-world actions, not just edit files:
 5. **Honest reflection** - This is a private space for genuine self-assessment
 6. **One thing at a time** - Focus beats breadth. Always.
 
-## Time-Sensitive Items (Feb 2026)
+## Time-Sensitive Items (Late Feb 2026)
 
-1. **Parental leave salary optimization** - Must establish consistent salary ASAP (5 months to baby)
-2. **Maxa launch** - The blocker is question extraction. Days, not weeks.
-3. **Clarity.video follow-up** - Proposal sent, waiting for reply
-4. **Vasaloppet** - Coming up in a few weeks
-5. **E-bike research** - Cut preschool commute time + exercise
+1. **Clarity.video signing** - Thu Feb 26 16:30 CET call with Todd to finalize and sign
+2. **Maxa App Store submission** - Question extraction + Apple docs. Days, not weeks.
+3. **Parental leave salary optimization** - 52K/month on the 25th each month (Feb-Jul)
+4. **Expa closeout** - Send "I'm done" message, confirm Erik handoff
+5. **Dad loan repayment** - 15K, end of Feb
 
 ## Rules
 
@@ -133,3 +162,4 @@ Claude has tools to take real-world actions, not just edit files:
 - **Be specific** - Vague advice is useless. Give me concrete next steps with dates.
 - **Update the CRM** - When people are discussed, update their file.
 - **Capture everything** - Insights go to knowledge/, references go to references/, brain dumps go to daily/.
+- **Maintain memory** - Keep commitments.md, decisions.md, tasks.md, and waiting-for.md current. Write session summaries.
