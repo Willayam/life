@@ -16,7 +16,7 @@ Financial freedom = time freedom. I never want to take a project because I *have
 | Monthly expenses | ~25,000-30,000 SEK |
 | Monthly surplus | ~60,000 SEK |
 | Personal debt | -200,000 SEK |
-| Personal loan from dad | -15,000 SEK (repay end Feb 2026) |
+| Personal loan from dad | -15,000 SEK (repay when Inkarnate invoice arrives, late Feb / early Mar 2026) |
 | Company owes me (private loans) | +300,000 SEK |
 | Company account balance | ~100,000 SEK |
 | Monthly salary (from company) | 52,000 SEK |
