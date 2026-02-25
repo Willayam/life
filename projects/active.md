@@ -221,22 +221,6 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 ---
 
-## 6. Building Projects (Queue)
+## Ideas & Future Projects
 
-_These are valuable but should not jump ahead of revenue-critical work._
-
-- [ ] **Email classifier** - Build a classifier to zero out inbox
-- [ ] **Framer/Vaylo replication** - Try replicating the Framer and Vaylo solution fully in code with agents
-- [x] **Expa meeting** - Confirmed Thu Feb 19 at 11:00
-
----
-
-## Project Pipeline (Future Bets)
-
-_Ideas to evaluate when bandwidth allows. Each should meet the small bets criteria._
-
-- [ ] **Mortality Map** - Interactive open-source node graph: Causes of Death ← Mechanisms ← Trainable Actions/Protocols. Visual tool showing how specific interventions (exercise, nutrition, sleep) flow through biological mechanisms to reduce specific mortality risks. Built on real study data. See [[exercise-longevity-research]] for the research foundation. Could be a content play + open source reputation builder + genuinely useful tool. Scope: web app, interactive graph visualization (D3/force-directed or similar), open data format so others can contribute.
-- [ ] Opportunities from Michael's network
-- [ ] AI automation services (testing with dad's Expa SE work)
-- [ ] Products born from consulting patterns (Inkarnate/Clarity insights)
-- [ ] Content-driven products (once audience exists)
+All queued ideas and future bets live in the **[Icebox](../strategy/icebox.md)**. Review monthly. Don't touch until Maxa is live and generating revenue.

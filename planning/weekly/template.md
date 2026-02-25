@@ -59,6 +59,25 @@ _How am I spending my time this week? Charlie weeks vs non-Charlie weeks look di
 
 ---
 
+## Time Tracking
+
+_Fill in at end of each day. Takes 30 seconds. Don't skip._
+
+| Day | Maxa | Inkarnate | Clarity | Admin/Other | Total |
+|-----|------|-----------|---------|-------------|-------|
+| Mon | — | — | — | — | — |
+| Tue | — | — | — | — | — |
+| Wed | — | — | — | — | — |
+| Thu | — | — | — | — | — |
+| Fri | — | — | — | — | — |
+| Sat | — | — | — | — | — |
+| Sun | — | — | — | — | — |
+| **Total** | | | | | |
+
+**Target ratio:** 50% Maxa / 30% Inkarnate / 10% Clarity / 10% Admin
+
+---
+
 ## Notes
 
 _Space for daily notes, blockers, or things that come up during the week_
