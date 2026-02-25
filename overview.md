@@ -70,8 +70,9 @@ Each category has: **Result** (what I want), **Purpose** (why it matters), and l
 - **Details:** [projects/active.md](projects/active.md)
 
 ### 7. Home & Environment
-- **Result:** Apartment adapted as a beautiful playground for living. Optimized for hosting, family life, and deep work.
-- **Purpose:** Your environment shapes your behavior. Make the space match the life.
+- **Result:** Apartment adapted as a beautiful playground for living. Optimized for hosting, family life, and deep work. Every item earns its place.
+- **Purpose:** Your environment shapes your behavior. Make the space match the life. Physical clarity = mental clarity.
+- **Details:** [inventory/system.md](inventory/system.md)
 
 ### 8. Personal Growth & Learning
 - **Result:** Continue learning at pace. Apply more, collect less. Focus on execution over consumption.

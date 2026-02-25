@@ -52,6 +52,9 @@ life/
   knowledge/            # Flat folder - learnings, insights, frameworks (tagged)
   references/           # Content by others - articles, book notes, clippings (tagged)
   people/               # Personal CRM - one file per person
+  inventory/            # Physical space inventory - zone files, photos, decisions
+    system.md           # Framework, decision criteria, zone tracker
+    photos/             # Before/after photos of each zone
   templates/            # Note templates for daily, people, knowledge, etc.
 
   .claude/
