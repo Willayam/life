@@ -109,13 +109,20 @@
 3. **Performance strategy** - Come up with a good strategy to help them make a real impact on performance
 4. **Website landing page** - Ideas for improving the marketing site
 
-### Ongoing
-- [ ] Weekly check-ins with Inkarnate team
-- [ ] Work on editor changes, performance strategy, landing page, and map creation flow
-- [ ] Track hours - keep this efficient, don't let it creep
+### Delivery Model
+**Weekly video + options cadence.** See [delivery playbook](../strategy/inkarnate-delivery-playbook.md).
+- 1 deep build day/week (4-6 hours) → produce prototype + 2-3 options
+- 1 short video to Ingmar (3-7 min Loom) → show work, give recommendation, ask one question
+- 1-2 days async follow-up window → respond to feedback, then done for the week
+- Rotate workstreams: map flow → editor → performance → landing page
+
+### Value Ledger
+| Week | Workstream | What I Delivered | Ingmar's Reaction |
+|------|-----------|-----------------|-------------------|
+| W09 | Map creation flow | Nav + card UI prototype | |
 
 ### Boundary
-Time-box consulting work. It should not expand to fill all available time. Target: focused blocks, not all-day availability.
+2 focused days/week max. Deliver outcomes, not hours. Discord closed on non-Inkarnate days.
 
 ---
 
