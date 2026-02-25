@@ -2,7 +2,7 @@
 date: 2026-02-25
 tags: [technology, ai, productivity, framework, architecture]
 source: "Research session - Claude + web sources"
-related_to: ["[[overview]]", "[[Claude]]"]
+related_to: ["[[overview]]", "[[Claude]]", "[[always-on-life-server-architecture]]"]
 ---
 
 # Personal Knowledge Management Architecture for AI
