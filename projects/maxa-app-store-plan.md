@@ -109,7 +109,13 @@ After Apple's 15% cut (Small Business Program): multiply by 0.85.
 Complete quiz/test
   → Celebration animation + stats (XP, accuracy, time)
     → Streak counter increments
-      → [Conditional: upsell OR share OR notification prompt]
+      → [Conditional — rotate one of these:]
+          → Upsell / paywall (if free user)
+          → Rating prompt: "How are you enjoying Maxa?" 1-5 stars
+              → 4-5 stars: route to App Store review (expo-store-review)
+              → 1-3 stars: in-app feedback form → your inbox
+          → Share / invite friends
+          → "Enable notifications" (if not yet granted)
         → Return to home with next action highlighted
           → Push notification if user doesn't return
             → "Don't lose your streak!" drives them back
@@ -182,7 +188,20 @@ This loop is responsible for the majority of Duolingo's 4.5x DAU growth. Build i
 - Total XP on profile
 - Level system (simple thresholds: Level 1 at 0 XP, Level 2 at 100 XP, etc.)
 
-#### 6. Paywall / Upsell (RevenueCat)
+#### 6. Review Gate (Rating Intercept)
+**Impact:** Apps with 4.5+ stars get 7x more downloads than 3-star apps. Routing unhappy users to feedback instead of App Store prevents 1-star reviews.
+**Effort:** 1 day
+**What to build:**
+- After quiz completion (on the stats screen), occasionally show a simple prompt: "How are you enjoying Maxa?" with 1-5 stars
+- **5 stars:** Trigger `expo-store-review` (native App Store review dialog). Say "Thanks! Would you mind rating us on the App Store?" The native SKStoreReviewController handles the rest — Apple limits it to 3 prompts per year per device.
+- **4 stars:** Same as 5 — still route to App Store, but with a softer ask.
+- **1-3 stars:** Show an in-app feedback form: "What can we improve?" with a text field. Send to your email/backend. Do NOT route to App Store.
+- **Timing:** Don't show on first quiz. Trigger after the user has completed 3-5 quizzes (they have enough experience to give a meaningful rating). Then don't re-ask for 30+ days.
+- **Package:** `expo-store-review` — one API call, handles iOS + Android natively.
+
+**Why this matters:** The average user never leaves a review unless prompted. Prompting at the right moment (post-quiz high) while filtering unhappy users privately is the #1 way to build a high App Store rating fast.
+
+#### 7. Paywall / Upsell (RevenueCat)
 **Impact:** ~2-4% freemium conversion at scale. This is where revenue comes from.
 **Effort:** 2-3 days (with RevenueCat pre-built paywalls)
 **What to build:**
@@ -197,17 +216,17 @@ This loop is responsible for the majority of Duolingo's 4.5x DAU growth. Build i
 
 ### TIER 2 — Ship Within First Month
 
-#### 7. Weekly Leaderboard
+#### 8. Weekly Leaderboard
 **Impact:** +25% lesson completion. +40% engagement for active participants.
 **Effort:** 3-5 days
 **Why wait:** Needs enough users to fill leaderboards meaningfully. Build after you have a user base.
 
-#### 8. Share / Invite Friends (Simple Deep Link)
+#### 9. Share / Invite Friends (Simple Deep Link)
 **Impact:** K-factor 0.15-0.4. Referred users have 37% lower churn, 16% higher LTV.
 **Effort:** 2-3 days
 **What to build:** Simple share link with deep linking (`expo-linking` or Branch). Don't over-engineer referral tracking for v1.
 
-#### 9. iOS Home Screen Widget
+#### 10. iOS Home Screen Widget
 **Impact:** Duolingo says widget users have "far better retention." Half of widget users have 6+ month streaks.
 **Effort:** 3-5 days (requires some Swift)
 **What to build:** Simple streak + daily progress widget. Use `expo-widgets`.
