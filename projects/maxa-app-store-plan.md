@@ -179,14 +179,75 @@ This loop is responsible for the majority of Duolingo's 4.5x DAU growth. Build i
 
 **Best practice from Duolingo:** "Protect the channel." Never increase notification frequency without extreme care.
 
-#### 5. Basic XP System
-**Impact:** +17% learning time. Foundation for all gamification.
-**Effort:** 1-2 days
-**What to build:**
-- Award XP on quiz completion (e.g., 20 XP base + accuracy bonus)
-- Display XP in post-quiz stats
-- Total XP on profile
-- Level system (simple thresholds: Level 1 at 0 XP, Level 2 at 100 XP, etc.)
+#### 5. XP System — Speed + Accuracy + Combos
+**Impact:** +17% learning time. Foundation for all gamification. Creates the addictive "one more question" urgency.
+**Effort:** 2-3 days
+**Design philosophy:** Högskoleprovet is timed. Practicing under time pressure is pedagogically essential — it mirrors real test conditions. But the Yerkes-Dodson law shows that too much pressure hurts learning. So: reward speed, but guarantee a meaningful base for just being correct.
+
+**Scoring formula per question:**
+```
+Base XP (correct answer):       100 XP
+Speed bonus (time-dependent):   0–50 XP
+Combo multiplier (streak):      1.0x – 3.0x
+
+Total = (100 + SpeedBonus) × ComboMultiplier
+Wrong answer = 0 XP, combo resets to 1.0x
+```
+
+**Speed bonus — the Kahoot/Quizizz model with a floor:**
+- Each question has a time allocation based on the real högskoleprovet timing
+- A draining bar shows remaining time, shifting green → orange → red
+- Speed bonus = `50 × (1 - timeUsed / timeAllotted)` — instant answer = 50 XP, last-second = ~0 XP
+- Correct answer always earns at least 100 XP regardless of speed (the "floor" — you're never punished for being careful)
+- This gives a **67/33 split** (accuracy/speed) — being correct matters most
+
+**Combo multiplier — escalating streak:**
+```
+1 correct in a row = 1.0x
+2 in a row         = 1.5x
+3 in a row         = 2.0x
+4 in a row         = 2.5x
+5+ in a row        = 3.0x (cap)
+Wrong answer       = reset to 1.0x
+```
+- Show the multiplier badge prominently — animate it growing on each correct answer
+- Make the reset feel significant (brief shake/flash) but not crushing
+- At 3.0x cap: a perfect fast answer = (100 + 50) × 3.0 = **450 XP** — feels amazing
+- A slow but correct answer = 100 × 1.0 = **100 XP** — still progress
+
+**Visual design:**
+- **Draining timer bar** across the top — smooth constant-rate animation, green → orange → red
+- **"+150 XP"** floats up from the answer on correct (animated, satisfying)
+- **Combo counter** in corner: "🔥 3x" — grows/pulses with each correct answer
+- **Haptic feedback** (`expo-haptics`) on correct answers, stronger haptic on combo milestones
+- **Sound design:** Ascending tones for combo buildup (like Guitar Hero), satisfying "ding" on correct
+
+**XP economy & levels:**
+- ~20 questions per practice test = ~2,000–6,000 XP per session depending on performance
+- Level thresholds (non-linear to hook early, sustain later):
+
+| Level | XP Required | Cumulative | ~Sessions to reach |
+|-------|-------------|------------|-------------------|
+| 1 | 0 | 0 | Start |
+| 2 | 2,000 | 2,000 | 1 session |
+| 3 | 3,000 | 5,000 | 2 sessions |
+| 5 | 5,000 | 15,000 | 5 sessions |
+| 10 | 10,000 | 55,000 | ~15 sessions |
+| 20 | 20,000 | 155,000 | ~40 sessions |
+
+- First level-up should happen in the FIRST session (immediate reward)
+- Level-up = full-screen celebration animation (proportional to milestone)
+- Future: tie levels to unlocks (cosmetics, streak freezes, bonus content)
+
+**What to build (MVP):**
+- XP calculation engine (formula above)
+- Draining timer bar component
+- Per-question "+XP" animation
+- Combo counter with multiplier display
+- Post-quiz XP summary (total earned, best combo, speed rating)
+- Total XP on profile / home screen
+- Level progress bar on home screen
+- Level-up celebration screen
 
 #### 6. Review Gate (Rating Intercept)
 **Impact:** Apps with 4.5+ stars get 7x more downloads than 3-star apps. Routing unhappy users to feedback instead of App Store prevents 1-star reviews.
