@@ -1,0 +1,168 @@
+# Spending & Income Categories
+# Each category maps to an RPM life category from overview.md
+# Budget targets are monthly, post-tax, in SEK
+#
+# RPM Life Categories:
+#   1. Financial Freedom
+#   2. Maxa & Product Empire
+#   3. Health & Energy
+#   4. Frida & Family
+#   5. Personal Brand & Content
+#   6. Consulting (Bridge Income)
+#   7. Home & Environment
+#   8. Personal Growth & Learning
+
+currency: SEK
+net_salary: 39690
+
+# --- FIXED EXPENSES ---
+fixed:
+  - id: rent
+    name: Rent
+    budget: 10336
+    life_category: Home & Environment
+
+  - id: garage
+    name: Garage
+    budget: 750
+    life_category: Home & Environment
+
+  - id: home_insurance
+    name: Home insurance
+    budget: 129
+    life_category: Home & Environment
+
+  - id: cleaning
+    name: House cleaning
+    budget: 3245
+    life_category: Home & Environment
+    notes: Will increase to 2x/week
+
+  - id: preschool
+    name: Preschool (Charlie)
+    budget: 823
+    life_category: Frida & Family
+
+  - id: child_insurance
+    name: Barnförsäkring (Charlie)
+    budget: 41
+    life_category: Frida & Family
+
+  - id: charlie_savings
+    name: Charlie savings (Lysa)
+    budget: 250
+    life_category: Frida & Family
+
+  - id: debt_dad
+    name: Debt repayment to dad
+    budget: 2000
+    life_category: Financial Freedom
+    temporary: true
+    notes: Until fully repaid
+
+# --- VARIABLE EXPENSES ---
+variable:
+  - id: groceries
+    name: Groceries & food
+    budget: 6000
+    life_category: Health & Energy
+    notes: Track via Klarna/receipts
+
+  - id: transport
+    name: Transport
+    budget: 1500
+    life_category: Home & Environment
+    notes: SL, occasional taxi
+
+  - id: subscriptions
+    name: Subscriptions
+    budget: 750
+    life_category: Personal Growth & Learning
+    notes: Netflix, streaming, apps
+
+  - id: personal
+    name: Personal & misc
+    budget: 1500
+    life_category: Personal Growth & Learning
+
+  - id: klarna
+    name: Klarna installments
+    budget: 0
+    life_category: Financial Freedom
+    notes: Track actual amounts as they come
+
+  - id: amex_repayment
+    name: Amex debt repayment
+    budget: 0
+    life_category: Financial Freedom
+    notes: Surplus goes here until debt cleared
+
+  - id: health
+    name: Health & fitness
+    budget: 0
+    life_category: Health & Energy
+    notes: Gym, supplements, etc.
+
+  - id: social
+    name: Social & hosting
+    budget: 0
+    life_category: Frida & Family
+    notes: Dinners, hosting friends
+
+  - id: product_costs
+    name: Product/SaaS costs
+    budget: 0
+    life_category: Maxa & Product Empire
+    notes: Claude, infra, tools for building
+
+  - id: content
+    name: Content creation
+    budget: 0
+    life_category: Personal Brand & Content
+
+# --- INCOME STREAMS ---
+income:
+  - id: inkarnate
+    name: Inkarnate consulting
+    type: active
+    monthly_gross: 90000
+    life_category: Consulting (Bridge Income)
+    status: active
+    notes: Invoiced through company
+
+  - id: salary
+    name: Monthly salary (from company)
+    type: salary
+    monthly_gross: 52000
+    monthly_net: 39690
+    life_category: Financial Freedom
+    notes: Consistent for SGI optimization
+
+  - id: maxa
+    name: Maxa subscriptions
+    type: product
+    monthly_gross: 0
+    life_category: Maxa & Product Empire
+    status: pre-revenue
+
+  - id: clarity
+    name: Clarity.video
+    type: active
+    monthly_gross: 0
+    life_category: Consulting (Bridge Income)
+    status: proposal_sent
+
+  - id: expa
+    name: Expa
+    type: active
+    monthly_gross: 0
+    life_category: Consulting (Bridge Income)
+    status: winding_down
+
+# --- SUMMARY TARGETS ---
+targets:
+  total_fixed: 17574
+  total_variable_estimate: 12000
+  monthly_surplus_target: 10000
+  debt_payoff_target: 2026-04
+  savings_start_target: 2026-05

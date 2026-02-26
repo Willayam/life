@@ -1,0 +1,62 @@
+# Net Worth Tracker
+# Update balances whenever they change. Git history = time series.
+# Net worth = sum(assets) - sum(liabilities)
+#
+# Last updated: 2026-02-26
+
+currency: SEK
+
+assets:
+  liquid:
+    - name: Personal savings
+      balance: 0
+      notes: Building after debt payoff
+
+    - name: Company account
+      balance: 100000
+      notes: Fluctuates with invoicing cycle
+
+  receivables:
+    - name: Company owes me (private loans)
+      balance: 300000
+      notes: Tax-efficient repayment over time
+
+  investments:
+    - name: Charlie savings (Lysa)
+      balance: 0
+      notes: 250 SEK/month contributions, check actual balance
+
+  # Add as you acquire:
+  # property:
+  # stocks:
+  # crypto:
+
+liabilities:
+  - name: Personal debt (Amex)
+    balance: 200000
+    rate_pct: null
+    minimum_monthly: null
+    target_payoff: 2026-04
+    notes: Paying ~60K/month surplus toward this
+
+  - name: Loan from dad
+    balance: 15000
+    rate_pct: 0
+    minimum_monthly: 2000
+    target_payoff: 2026-02
+    notes: Repay end of Feb 2026
+
+  - name: Deferred expense (Acquisition.com 2025)
+    balance: 55000
+    rate_pct: 0
+    notes: Don't book until after salary payout so account isn't emptied
+
+  # Klarna installments, etc:
+  # - name: Klarna - Tony Robbins
+  #   balance:
+  #   minimum_monthly:
+
+# --- Computed (for reference, recalculate on read) ---
+# total_assets: 400,000
+# total_liabilities: 270,000
+# net_worth: 130,000

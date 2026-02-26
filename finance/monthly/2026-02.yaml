@@ -1,0 +1,73 @@
+# February 2026 — Monthly Financial Log
+# Record transactions as they happen. Category IDs from categories.yaml.
+#
+# At month end: review totals vs budget, update net-worth.yaml balances.
+
+month: 2026-02
+currency: SEK
+
+# --- INCOME RECEIVED ---
+income:
+  - date: 2026-02-25
+    source: salary
+    amount: 39690
+    notes: First salary payout at 52K gross
+
+  # - date: 2026-02-XX
+  #   source: inkarnate
+  #   amount:
+  #   notes: February invoice payment
+
+# --- EXPENSES ---
+# Tag each with category ID from categories.yaml
+expenses:
+  # Fixed (recurring — copy this block each month, adjust as needed)
+  - date: 2026-02-01
+    category: rent
+    amount: 10336
+
+  - date: 2026-02-01
+    category: garage
+    amount: 750
+
+  - date: 2026-02-01
+    category: home_insurance
+    amount: 129
+
+  - date: 2026-02-01
+    category: cleaning
+    amount: 3245
+
+  - date: 2026-02-01
+    category: preschool
+    amount: 823
+
+  - date: 2026-02-01
+    category: child_insurance
+    amount: 41
+
+  - date: 2026-02-01
+    category: charlie_savings
+    amount: 250
+
+  - date: 2026-02-01
+    category: debt_dad
+    amount: 2000
+
+  # Variable (add as they happen)
+  # - date: 2026-02-XX
+  #   category: groceries
+  #   amount:
+  #   vendor:
+  #   notes:
+
+# --- MONTH-END REVIEW ---
+# Fill in at end of month:
+# total_income:
+# total_fixed: 17574
+# total_variable:
+# total_expenses:
+# surplus:
+# debt_remaining:
+# net_worth_change:
+# notes:

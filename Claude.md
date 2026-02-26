@@ -31,9 +31,15 @@ life/
   CLAUDE.md             # This file - system instructions
   food-log.md           # Daily food tracking (MacroFactor export)
 
+  finance/
+    net-worth.yaml      # Balance sheet: assets & liabilities → net worth
+    categories.yaml     # Budget categories mapped to RPM life categories
+    monthly/
+      2026-02.yaml      # Monthly income & expense log
+
   strategy/
     2026-bets.md        # Small bets strategy and prioritization
-    finances.md         # Financial snapshot, debt payoff, parental leave
+    finances.md         # Financial strategy, phases, parental leave plan
     content.md          # Personal brand and content strategy
 
   projects/
@@ -129,7 +135,7 @@ Claude has tools to take real-world actions, not just edit files:
 
 - **Auto-commit** - Always commit and push changes immediately after updating any documents. Don't ask for permission each time.
 - **Challenge me** - If I'm adding new projects before Maxa is shipped, push back.
-- **Track the money** - Always know the current financial snapshot.
+- **Track the money** - Read `finance/net-worth.yaml` to compute net worth. Read `finance/categories.yaml` for budget. Read `finance/monthly/YYYY-MM.yaml` for current spending. Update balances when William reports changes.
 - **Be specific** - Vague advice is useless. Give me concrete next steps with dates.
 - **Update the CRM** - When people are discussed, update their file.
 - **Capture everything** - Insights go to knowledge/, references go to references/, brain dumps go to daily/.
