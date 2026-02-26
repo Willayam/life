@@ -1,73 +1,59 @@
-# February 2026 — Monthly Financial Log
-# Record transactions as they happen. Category IDs from categories.yaml.
-#
-# At month end: review totals vs budget, update net-worth.yaml balances.
+# February 2026 — Monthly Ledger
+# Variable transactions are the core — add them as they happen.
+# Fixed costs are defined in categories.yaml; just confirm total here.
+# Ask Claude for a budget report anytime: it reads this + categories.yaml.
 
 month: 2026-02
 currency: SEK
 
-# --- INCOME RECEIVED ---
+# --- INCOME ---
 income:
   - date: 2026-02-25
     source: salary
-    amount: 39690
-    notes: First salary payout at 52K gross
+    net: 39690
+    notes: First payout at 52K gross
 
-  # - date: 2026-02-XX
-  #   source: inkarnate
-  #   amount:
-  #   notes: February invoice payment
+# --- FIXED COSTS ---
+# Defined in categories.yaml. Confirm total when all have cleared.
+fixed_costs_confirmed: true
+fixed_costs_total: 17574
+fixed_costs_notes: null
 
-# --- EXPENSES ---
-# Tag each with category ID from categories.yaml
-expenses:
-  # Fixed (recurring — copy this block each month, adjust as needed)
-  - date: 2026-02-01
-    category: rent
-    amount: 10336
+# --- VARIABLE TRANSACTIONS ---
+# This is the ledger. Add lines as you spend.
+# Fields: date, amount, category (from categories.yaml), vendor, notes (optional)
+transactions:
+  # Example entries — replace with real spending:
+  # - [2026-02-03, 347, groceries, ICA Maxi]
+  # - [2026-02-04, 89, transport, SL]
+  # - [2026-02-06, 1200, groceries, Hemköp, weekly shop]
+  # - [2026-02-07, 149, subscriptions, Netflix]
+  # - [2026-02-10, 450, social, dinner with Emil]
+  # - [2026-02-14, 800, personal, Valentine's gift]
+  # - [2026-02-15, 2500, klarna, Tony Robbins installment]
 
-  - date: 2026-02-01
-    category: garage
-    amount: 750
+# --- DEBT PAYMENTS (beyond minimums in fixed) ---
+debt_payments:
+  # - date: 2026-02-26
+  #   to: amex
+  #   amount: 10000
 
-  - date: 2026-02-01
-    category: home_insurance
-    amount: 129
-
-  - date: 2026-02-01
-    category: cleaning
-    amount: 3245
-
-  - date: 2026-02-01
-    category: preschool
-    amount: 823
-
-  - date: 2026-02-01
-    category: child_insurance
-    amount: 41
-
-  - date: 2026-02-01
-    category: charlie_savings
-    amount: 250
-
-  - date: 2026-02-01
-    category: debt_dad
-    amount: 2000
-
-  # Variable (add as they happen)
-  # - date: 2026-02-XX
-  #   category: groceries
-  #   amount:
-  #   vendor:
-  #   notes:
-
-# --- MONTH-END REVIEW ---
-# Fill in at end of month:
-# total_income:
-# total_fixed: 17574
-# total_variable:
-# total_expenses:
-# surplus:
-# debt_remaining:
-# net_worth_change:
-# notes:
+# --- MONTH-END SUMMARY ---
+# Filled in at month-end review (or Claude computes it):
+summary:
+  total_income: null
+  total_fixed: 17574
+  total_variable: null
+  total_debt_payments: null
+  total_expenses: null
+  surplus: null
+  # Breakdown by category:
+  by_category: {}
+  # by_category:
+  #   groceries: 5200
+  #   transport: 890
+  #   subscriptions: 649
+  #   personal: 1300
+  #   social: 450
+  #   klarna: 2500
+  notes: null
