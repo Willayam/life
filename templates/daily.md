@@ -1,12 +1,22 @@
 ---
 date: {{date}}
 tags: [daily]
-energy:
-sleep_quality:
 charlie: false
 ---
 
 # {{date}}
+
+## Health Check-In
+| Metric | Score |
+|--------|-------|
+| Sleep hours | |
+| Sleep quality (1-10) | |
+| Energy (1-10) | |
+| Mental clarity (1-10) | |
+| Mood (1-10) | |
+| Stress (1-10) | |
+| Training | Rest / _describe_ |
+| Notable factors | _alcohol, late screen, poor food, caffeine late, etc._ |
 
 ## Brain Dump
 _What's on my mind? What happened? Stream of consciousness - Claude will organize later._
