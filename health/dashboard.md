@@ -1,10 +1,13 @@
 # Health & Energy Dashboard
 
 ## Result
-80 kg lean. Consistent training. Great sleep. High daily energy. Strong body for decades.
+80 kg lean. Consistent training. Great sleep. High daily energy. Strong, flexible, skilled, powerful body for decades.
 
 ## Purpose
-Everything depends on energy. If I'm tired, sluggish, or sick, nothing else works. Health is the foundation that makes the ambitious life possible.
+Everything depends on energy. If I'm tired, sluggish, or sick, nothing else works. Health is the foundation that makes the ambitious life possible. Charlie and Baby #2 are watching — the way I treat my body is the blueprint they'll follow.
+
+## Mindset
+**[The Mindset System](mindset.md)** — Identity-level rewiring. Not discipline. Not motivation. *Becoming someone who loves the process.* The effort is the craft.
 
 ---
 
@@ -90,8 +93,11 @@ See [food-log.md](../food-log.md) for daily tracking.
 - Minimal structured training
 - Vasaloppet prep (some skiing/cardio)
 
-### Target Routine (Post-Vasaloppet)
-- [ ] Define 3-4x/week training plan
+### Target Routine
+See **[Mindset System — Training Framework](mindset.md#training-framework)** for the full 5x/week plan: upper/lower split + skills day + conditioning + active recovery.
+
+**Skill goals:** Handstand hold, muscle-up, pistol squat, L-sit, deep squat, bridge push-up. See [mindset.md#skills-to-develop](mindset.md#skills-to-develop).
+
 - [ ] Mix of: strength training, cardio (biking to preschool?), skiing/outdoor
 - [ ] The e-bike preschool commute could be built-in daily exercise
 
@@ -112,9 +118,12 @@ See [food-log.md](../food-log.md) for daily tracking.
 ---
 
 ## Weekly Health Check-In
-Questions to answer each week:
+Questions to answer each week (expanded list in [mindset.md#weekly-health-review-questions](mindset.md#weekly-health-review-questions)):
 1. Average weight this week?
 2. How was sleep quality (1-10)?
-3. How many training sessions?
+3. How many training sessions? Did I *enjoy* them or just survive?
 4. Energy level average (1-10)?
-5. What helped? What hurt?
+5. Did I hit 160g protein daily?
+6. Did I do morning non-negotiables every day? (cold water, mobility, hydration)
+7. What helped? What hurt?
+8. Am I closer to any skill goals?
