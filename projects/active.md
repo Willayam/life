@@ -207,15 +207,18 @@ Time-box consulting work. It should not expand to fill all available time. Targe
 
 **Purpose:** Support my partner. Reduce her financial stress. Potentially synergize with Maxa.
 
-**Status:** Idea stage.
+**Status:** Planning session prep. See [frida-business-system.md](frida-business-system.md) for full session plan.
 
-**Concept:** Frida is a PhD sleep researcher who wants to work with kids in schools on sleep and play. Needs a scalable offer (not 1-on-1 consulting).
+**Concept:** Frida is a PhD sleep researcher who wants to work with kids in schools on sleep and play. Needs a scalable offer (not 1-on-1 consulting). Now expanding to sports orgs too.
+
+**Next step:** Schedule 3-4 hour session with Frida to set up her repo, define offers, build outreach pipeline, and draft website copy.
 
 ### Ideas
-- Online course/program for schools
-- App or digital tool
+- Online course/program for schools and sports orgs
 - Workshop-in-a-box that can be licensed
-- [ ] Brainstorm session with Frida to define the offer
+- Tiered offers: digital course → live workshops → premium program
+- [ ] Schedule setup session with Frida
+- [ ] Prep session materials (see [frida-business-system.md](frida-business-system.md))
 
 ---
 
