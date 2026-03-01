@@ -1,0 +1,9 @@
+{
+  "name": "life-vault-sync",
+  "version": "1.0.0",
+  "description": "Automated calendar + email sync into the life vault",
+  "main": "sync.js",
+  "dependencies": {
+    "googleapis": "^171.4.0"
+  }
+}
